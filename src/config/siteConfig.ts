@@ -2,32 +2,27 @@ import type { SiteConfig } from "@/types/siteConfig";
 
 // 定义站点语言
 // 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'ja', 'ru'。
-const SITE_LANG = "zh_CN";
+const SITE_LANG = "en";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "Bothbest Bamboo Flooring",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "China Factory",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://www.838222.xyz",
 
 	// 站点描述
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"Bothbest is a professional factory of bamboo flooring in China, dedicated to manufacturing and exporting premium solid and engineered bamboo products worldwide. ",
 
 	// 站点关键词
 	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
-		"博客",
-		"技术博客",
-		"静态博客",
-	],
+		"bamboo flooring",
+		"china",
+		],
 
 	// 主题色
 	themeColor: {
