@@ -18,7 +18,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 文章及其子菜单
 	links.push({
-		name: "文章",
+		name: "Posts",
 		url: "#",
 		icon: "material-symbols:article",
 		children: [
@@ -41,7 +41,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 我的及其子菜单
 	links.push({
-		name: "我的",
+		name: "My",
 		url: "#",
 		icon: "material-symbols:person",
 		children: [
@@ -58,7 +58,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
 	// 关于及其子菜单
 	links.push({
-		name: "关于",
+		name: "About",
 		url: "#",
 		icon: "material-symbols:info",
 		children: [
