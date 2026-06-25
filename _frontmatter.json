@@ -29,7 +29,7 @@
           "type": "string"
         },
         {
-          "title": "published",
+          "title": "published date",
           "name": "published",
           "type": "datetime",
           "default": "{{now}}",
@@ -38,8 +38,7 @@
         {
           "title": "preview",
           "name": "image",
-          "type": "image",
-          "isPreviewImage": true
+          "type": "string"
         },
         {
           "title": "tags",
