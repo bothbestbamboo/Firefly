@@ -1,7 +1,5 @@
 {
     "search.useGlobalIgnoreFiles": true,
-    "frontMatter.framework.id": "astro",
-    "frontMatter.preview.host": "http://localhost:4321",
     "[markdown]": {
         "editor.fontSize": 14,
         "editor.lineHeight": 26,
@@ -10,5 +8,6 @@
         "editor.lineNumbers": "off",
         "editor.quickSuggestions": false,
         "editor.minimap.enabled": false
-    }
+    },
+    "workbench.preferredHighContrastColorTheme": "Light Modern"
 }
