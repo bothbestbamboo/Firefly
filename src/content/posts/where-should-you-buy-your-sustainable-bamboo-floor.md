@@ -1,5 +1,5 @@
 ---
-title: Home Depot vs. Specialty Brands: Where Should You Buy Your Sustainable Bamboo Floor?
+title: Home Depot vs. Specialty Brands Where Should You Buy Your Sustainable Bamboo Floor?
 published: 2026-06-25
 pinned: false
 description: When embarking on a residential renovation or executing a commercial property development, choosing your sourcing pipeline is just as important as selecting the raw material itself. 
