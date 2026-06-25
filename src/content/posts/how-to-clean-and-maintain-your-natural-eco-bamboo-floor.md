@@ -1,7 +1,6 @@
 ---
 title: How to Clean and Maintain Your Natural Eco Bamboo Floor
-pubDate: 2026-06-25T01:08:51.272Z
-published: true
+published: 2026-06-25
 description: "While premium bamboo is engineered to withstand heavy daily foot traffic, its long-term beauty depends entirely on how it is treated on a day-to-day basis. "
 heroImage: /gallery/firefly-2026/IMG_0225.jpg
 keywords:
