@@ -81,17 +81,14 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否允许用户通过控制面板切换横幅标题显示
 			switchable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "China Bamboo Flooring Factory Since 2001",
 			// 主页横幅主标题字体大小
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
+				"Engineering the Finest Bamboo Flooring",
+				"Manufacturing Excellence & Automated Infrastructure",
+				"Sustainability as Our Driving Principle",
 			],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
