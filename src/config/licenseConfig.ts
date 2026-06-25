@@ -6,5 +6,5 @@ export const licenseConfig: LicenseConfig = {
 
 	// 许可证名称及链接
 	name: "CC BY-NC-SA 4.0",
-	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+	url: "#",
 };
