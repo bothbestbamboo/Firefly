@@ -6,8 +6,7 @@ image: /gallery/firefly-2026/6.JPG
 draft: false
 tags:
     - bamboo plywood
-categories:
-    - bamboo
+category: bamboo
 ---
 
 Working with [bamboo plywood](https://www.bambooindustry.com/products/bamboo-panel/bamboo-plywood.html) offers a compelling mix of sustainability, striking aesthetics, and impressive structural strength. Derived from a fast-growing grass rather than traditional timber, this engineered material has steadily found its way into high-end cabinetry, architectural panels, custom furniture, and musical instruments. However, the exact structural traits that make it durable also introduce a distinct set of challenges when it comes to computer numerical control (CNC) machining. 
