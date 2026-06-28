@@ -1,7 +1,7 @@
 ---
 title: CNC Machining Bamboo Plywood
 description: "Many operators approach bamboo expecting it to behave like typical hardwood plywood, such as birch or maple. "
-date: 2026-06-28T00:11:56.952Z
+date: 2026-06-28
 preview: /gallery/firefly-2026/6.JPG
 draft: false
 tags:
