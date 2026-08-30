@@ -6,13 +6,13 @@ const SITE_LANG = "en";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Bothbest Bamboo Flooring",
+	title: "All Bamboo Flooring",
 
 	// 站点副标题
 	subtitle: "China Factory",
 
 	// 站点 URL
-	site_url: "https://www.838222.xyz",
+	site_url: "https://www.allbambooflooring.com",
 
 	// 站点描述
 	description:
