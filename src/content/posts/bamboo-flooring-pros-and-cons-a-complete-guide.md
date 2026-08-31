@@ -7,7 +7,7 @@ tags:
     - bamboo flooring
 category: bamboo flooring
 draft: false
-image: src/content/posts/images/home-depot-bamboo-floors.jpg
+image: /src/content/posts/images/home-depot-bamboo-floors.jpg
 ---
 
 Selecting the right surface for a home or commercial property requires balancing long-term durability, interior aesthetics, budget constraints, and environmental responsibility. Over the past two decades, [bamboo flooring](https://www.allbambooflooring.com) has established itself as one of the most prominent alternatives to traditional hardwood, offering a unique blend of natural elegance and impressive mechanical strength. Derived from fast-growing Moso stalks rather than centuries-old timber, this material appeals strongly to property owners seeking to minimize their ecological footprint without compromising on visual sophistication.
