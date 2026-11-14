@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import MainGridLayout from '@layouts/MainGridLayout.astro';
+import PostCard from '@/components/layout/PostCard.astro';
 import { getPostUrlBySlug } from '@/utils/url-utils';
 
 export async function getStaticPaths() {
@@ -29,17 +30,30 @@ const filteredPosts = allPosts.filter(post =>
 
 <MainGridLayout title={`标签: ${originalTag}`}>
   <div class="container mx-auto px-4 py-8">
+    <!-- 顶部标题区域 -->
     <div class="mb-8 p-6 rounded-2xl bg-white/70 dark:bg-black/50 backdrop-blur-md">
       <h1 class="text-2xl font-bold text-[--primary]">标签: {originalTag}</h1>
       <p class="text-sm mt-2 opacity-70">共找到 {filteredPosts.length} 篇文章</p>
     </div>
     
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- 文章列表区域 -->
+    <div class="grid grid-cols-1 gap-6">
       {filteredPosts.map((post) => (
-        <a href={getPostUrlBySlug(post.id)} class="block p-6 rounded-2xl bg-white/70 dark:bg-black/50 backdrop-blur-md hover:scale-105 transition-transform">
-          <h2 class="text-xl font-bold">{post.data.title}</h2>
-          <!-- 日期行已移除，防止报错 -->
-        </a>
+        <PostCard
+          entry={post}
+          title={post.data.title}
+          url={getPostUrlBySlug(post.id)}
+          published={post.data.published}
+          updated={post.data.updated}
+          tags={post.data.tags || []}
+          category={post.data.category || null}
+          image={post.data.image || ""}
+          description={post.data.description || ""}
+          draft={post.data.draft || false}
+          pinned={post.data.pinned}
+          password={post.data.password}
+          style=""
+        />
       ))}
     </div>
   </div>
