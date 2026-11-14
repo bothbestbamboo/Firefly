@@ -45,7 +45,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		desktop: [
 			"assets/images/DesktopWallpaper/bamboo-wallpaper-1.jpg",
 			"assets/images/DesktopWallpaper/bamboo-wallpaper-2.jpg",
-			"assets/images/DesktopWallpaper/bamboo-wallpaper.jpg",
+			"assets/images/DesktopWallpaper/bamboo-wallpaper-3.jpg",
 		],
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
