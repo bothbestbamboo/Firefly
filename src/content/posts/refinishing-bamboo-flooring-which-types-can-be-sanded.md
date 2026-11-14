@@ -3,7 +3,7 @@ title: "Refining Bamboo Flooring: Which Types Can Be Sanded and Which Cannot"
 published: 2026-11-14
 pinned: false
 description: "Not every bamboo floor can be sanded. See how horizontal, vertical, strand woven, and engineered bamboo react to a drum sander before you hire a refinishing crew or rent one."
-tags: ["refinishing-bamboo", "sanding-bamboo-floor", "strand-woven-bamboo", "floor-restoration"]
+tags: ["bamboo-flooring", "floor-restoration", "strand-woven-bamboo"]
 category: "Bamboo Flooring"
 draft: false
 image: "../../assets/images/gallery/refinishing-bamboo-flooring-hero.jpg"

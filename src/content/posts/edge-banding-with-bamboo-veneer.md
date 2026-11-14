@@ -3,7 +3,7 @@ title: "Edge Banding with Bamboo Veneer"
 published: 2026-07-02
 pinned: false
 description: "When you stroll through a newly completed modern home or a high-end commercial showroom, a premium natural floor stands out immediately."
-tags: ["bamboo-veneer", "edge-banding", "cabinet-making", "bamboo-panels"]
+tags: ["bamboo-panels", "bamboo-veneer", "edge-banding", "cabinet-making"]
 category: "Bamboo Panels"
 draft: false
 image: "../../assets/images/gallery/bamboo-veneer-1.jpg"

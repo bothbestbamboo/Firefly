@@ -4,7 +4,7 @@ description: "Many operators approach bamboo expecting it to behave like typical
 published: 2026-06-28
 image: "../../assets/images/gallery/cnc-bamboo-plywood.jpg"
 draft: false
-tags: ["cnc-machining", "bamboo-plywood", "machining-parameters", "tool-wear"]
+tags: ["bamboo-plywood", "cnc-machining", "machining-parameters"]
 category: "Bamboo Panels"
 ---
 

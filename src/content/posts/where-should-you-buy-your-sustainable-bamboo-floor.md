@@ -3,7 +3,7 @@ title: "Home Depot vs. Specialty Brands Where Should You Buy Your Sustainable Ba
 published: 2026-06-25
 pinned: false
 description: "When embarking on a residential renovation or executing a commercial property development, choosing your sourcing pipeline is just as important as."
-tags: ["bamboo-flooring-buying-guide", "home-depot-bamboo", "sustainable-flooring", "specialty-brands"]
+tags: ["bamboo-flooring", "buyer-guide", "home-depot-bamboo", "sustainable-flooring"]
 category: "Bamboo Flooring"
 draft: false
 image: "../../assets/images/gallery/bamboo-flooring-buying-guide.jpg"

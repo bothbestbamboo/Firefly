@@ -5,7 +5,7 @@ pinned: false
 description: "While premium bamboo is engineered to withstand heavy daily foot traffic, its long-term beauty depends entirely on how it is treated on a day-to-day basis."
 image: "../../assets/images/gallery/IMG_0225.jpg"
 category: "Bamboo Flooring"
-tags: ["clean-bamboo-floor", "floor-maintenance", "humidity-control", "bamboo-flooring-care"]
+tags: ["bamboo-flooring", "floor-maintenance", "humidity-control"]
 draft: false
 ---
 
