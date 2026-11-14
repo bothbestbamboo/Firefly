@@ -29,7 +29,7 @@ export const siteConfig: SiteConfig = {
 
 	// 主题色 (保持原本的翠绿色，很符合竹子主题)
 	themeColor: {
-		hue: 135,
+		hue: 125,
 		fixed: true,
 		defaultMode: "system",
 	},
