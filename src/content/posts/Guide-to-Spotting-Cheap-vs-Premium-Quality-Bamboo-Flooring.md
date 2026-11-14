@@ -6,7 +6,7 @@ description: "When you stroll through a newly completed modern home or a high-en
 tags: ["bamboo flooring", "buyer guide"]
 category: "bamboo flooring"
 draft: false
-image: "@assets/images/gallery/IMG_0170.jpg"
+image: "../../assets/images/gallery/IMG_0170.jpg"
 ---
 When you stroll through a newly completed modern home or a high-end commercial showroom, a premium natural floor stands out immediately. It provides a visual weight, an organic depth, and a structural solidity that binds the entire architectural design together. Among the array of eco-friendly materials available, **[bamboo flooring](https://www.bambooindustry.com)** has established itself as an exceptional choice for architects, developers, and discerning homeowners who refuse to compromise on visual warmth or environmental responsibility.
 
