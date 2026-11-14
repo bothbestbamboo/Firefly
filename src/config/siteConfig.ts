@@ -54,7 +54,7 @@ export const siteConfig: SiteConfig = {
 	navbar: {
 		logo: {
 			type: "image",
-			value: "/favicon/newlogo.png",
+			value: "/favicon/logo.png",
 			alt: "Bothbest Bamboo Logo",
 		},
 		title: "Bothbest",
