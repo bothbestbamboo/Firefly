@@ -40,22 +40,15 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	 * ],
 	 */
 	src: {
-		// 桌面背景图片（支持单张或多张随机）
-		// desktop: "assets/images/DesktopWallpaper/d1.avif",
 		desktop: [
 			"assets/images/DesktopWallpaper/bamboo-wallpaper-1.jpg",
 			"assets/images/DesktopWallpaper/bamboo-wallpaper-2.jpg",
 			"assets/images/DesktopWallpaper/bamboo-wallpaper-3.jpg",
+			"assets/images/DesktopWallpaper/bamboo-wallpaper-4.jpg",
 		],
-		// 移动背景图片（支持单张或多张随机）
-		// mobile: "assets/images/MobileWallpaper/m1.avif",
 		mobile: [
 			"assets/images/MobileWallpaper/m-bamboo-wallpaper.jpg",
 		],
-		// 背景视频播放地址
-		// 支持单个视频路径（字符串）或多个视频循环（数组）
-		// 支持远程视频URL，本地视频请放在 public/assets/videos/ 目录下
-		// playerUrl: "/assets/videos/firefly.mp4",
 		playerUrl: [
 			"https://www.image2url.com/r2/default/videos/1781765166391-f2ba6648-1597-40e0-9f0a-6768ae39e574.mp4",
 		],
