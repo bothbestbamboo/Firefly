@@ -1,7 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import MainGridLayout from '@layouts/MainGridLayout.astro';
-import PostCard from '@/components/layout/PostCard.astro'; // 引入你提供的文章卡片组件
+import PostCard from '@/components/layout/PostCard.astro'; 
 import { getPostUrlBySlug } from '@/utils/url-utils';
 
 export async function getStaticPaths() {
@@ -30,21 +30,21 @@ const filteredPosts = allPosts.filter(post => {
 });
 ---
 
-<MainGridLayout title={`分类: ${originalCategory}`}>
+<!-- 这里将顶部 Banner 的标题改为英文 -->
+<MainGridLayout title={`Category: ${originalCategory}`}>
   <div class="container mx-auto px-4 py-8">
-    <!-- 顶部标题区域 -->
     <div class="mb-8 p-6 rounded-2xl bg-white/70 dark:bg-black/50 backdrop-blur-md">
-      <h1 class="text-2xl font-bold text-[--primary]">分类: {originalCategory}</h1>
-      <p class="text-sm mt-2 opacity-70">共找到 {filteredPosts.length} 篇文章</p>
+      <!-- 将 H1 里的中文改为英文 -->
+      <h1 class="text-2xl font-bold text-[--primary]">Category: {originalCategory}</h1>
+      <!-- 将文章数量提示改为英文 -->
+      <p class="text-sm mt-2 opacity-70">Found {filteredPosts.length} posts</p>
     </div>
     
-    <!-- 文章列表区域 -->
-    <!-- 注意：如果需要网格或列表布局，可以在父级加上 class="grid-mode" 或 "list-mode" -->
     <div class="grid grid-cols-1 gap-6">
       {filteredPosts.map((post) => (
         <PostCard
           entry={post}
-          title={post.data.title}
+          title={post.data.title || "Untitled"}
           url={getPostUrlBySlug(post.id)}
           published={post.data.published}
           updated={post.data.updated}

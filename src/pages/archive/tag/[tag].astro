@@ -28,20 +28,21 @@ const filteredPosts = allPosts.filter(post =>
 );
 ---
 
-<MainGridLayout title={`标签: ${originalTag}`}>
+<!-- 这里将顶部 Banner 的标题改为英文 -->
+<MainGridLayout title={`Tag: ${originalTag}`}>
   <div class="container mx-auto px-4 py-8">
-    <!-- 顶部标题区域 -->
     <div class="mb-8 p-6 rounded-2xl bg-white/70 dark:bg-black/50 backdrop-blur-md">
-      <h1 class="text-2xl font-bold text-[--primary]">标签: {originalTag}</h1>
-      <p class="text-sm mt-2 opacity-70">共找到 {filteredPosts.length} 篇文章</p>
+      <!-- 将 H1 里的中文改为英文 -->
+      <h1 class="text-2xl font-bold text-[--primary]">Tag: {originalTag}</h1>
+      <!-- 将文章数量提示改为英文 -->
+      <p class="text-sm mt-2 opacity-70">Found {filteredPosts.length} posts</p>
     </div>
     
-    <!-- 文章列表区域 -->
     <div class="grid grid-cols-1 gap-6">
       {filteredPosts.map((post) => (
         <PostCard
           entry={post}
-          title={post.data.title}
+          title={post.data.title || "Untitled"}
           url={getPostUrlBySlug(post.id)}
           published={post.data.published}
           updated={post.data.updated}
