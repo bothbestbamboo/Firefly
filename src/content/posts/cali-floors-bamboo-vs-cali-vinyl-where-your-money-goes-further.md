@@ -9,13 +9,9 @@ draft: false
 image: "../../assets/images/gallery/cali-floors-bamboo-vs-cali-vinyl-hero.jpg"
 ---
 
-# Cali Floors Bamboo vs. Cali Vinyl: Where Your Money Goes Further
-
 The honest answer comes first, because most of the confusion around this comparison is a matter of putting the right floor in the wrong room. Cali bamboo is the harder, more natural product that rewards a dry, stable space and holds its value over time. Cali vinyl is the waterproof, cheaper-to-install product that wins in basements, bathrooms, and rental properties. Spend more on bamboo in a damp basement and you are wasting money. Lay vinyl in a formal living room and you are leaving value on the table.
 
 Cali Floors built its name on bamboo long before vinyl became the brand's best seller, so comparing the two is really a comparison of where the company started and where it is now.
-
-![Side-by-side lineup of a fossilized bamboo plank and a rigid vinyl plank with cut edges turned toward the camera](../../assets/images/gallery/cali-floors-bamboo-vs-cali-vinyl-hero.jpg)
 
 ## Two Different Products Under One Brand
 
