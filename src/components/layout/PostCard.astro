@@ -15,7 +15,7 @@ interface Props {
 	entry: CollectionEntry<"posts">;
 	title: string;
 	url: string;
-	published: Date;
+	published?: Date; // 修改点1：改为可选，允许传入 undefined
 	updated?: Date;
 	tags: string[];
 	category: string | null;
@@ -27,11 +27,12 @@ interface Props {
 	style: string;
 	loading?: "lazy" | "eager";
 }
+
 const {
 	entry,
 	title,
 	url,
-	published,
+	published = new Date(), // 修改点2：解构时提供默认值，如果没传就用当前时间
 	tags,
 	category,
 	image,
@@ -94,7 +95,7 @@ const descriptionText = description || remarkPluginFrontmatter.excerpt || "";
         before:w-1 before:h-5 before:rounded-md before:bg-(--primary)
         before:absolute before:top-[35px] before:left-[18px] before:hidden md:before:block"
     >
-      {title}
+      {title || "无标题"}
 
       {
         password && (
