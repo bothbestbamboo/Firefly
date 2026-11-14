@@ -41,9 +41,9 @@ export function getPostUrlBySlug(slug: string): string {
 
 export function getTagUrl(tag: string): string {
 	if (!tag) return url("/archive/");
-	// 修改：将空格替换为连字符
-	const formattedTag = tag.trim().replace(/\s+/g, "-");
-	return url(`/archive/?tag=${encodeURIComponent(formattedTag)}`);
+	// 改为路径格式: /archive/tag/xxx/
+	const formattedTag = tag.trim().replace(/\s+/g, "-").toLowerCase();
+	return url(`/archive/tag/${encodeURIComponent(formattedTag)}/`);
 }
 
 export function getCategoryUrl(category: string | null): string {
@@ -52,11 +52,11 @@ export function getCategoryUrl(category: string | null): string {
 		category.trim() === "" ||
 		category.trim().toLowerCase() === i18n(I18nKey.uncategorized).toLowerCase()
 	)
-		return url("/archive/?uncategorized=true");
+		return url("/archive/?uncategorized=true"); // 未分类的可以保留查询参数，或者也做成路径
 	
-	// 修改：将空格替换为连字符
-	const formattedCategory = category.trim().replace(/\s+/g, "-");
-	return url(`/archive/?category=${encodeURIComponent(formattedCategory)}`);
+	// 改为路径格式: /archive/category/xxx/
+	const formattedCategory = category.trim().replace(/\s+/g, "-").toLowerCase();
+	return url(`/archive/category/${encodeURIComponent(formattedCategory)}/`);
 }
 
 export function getDir(path: string): string {

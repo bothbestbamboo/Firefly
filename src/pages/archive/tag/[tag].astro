@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import MainGridLayout from '@layouts/MainGridLayout.astro';
+import { getPostUrlBySlug } from '@/utils/url-utils';
+
+const allPosts = await getCollection('posts');
+
+const allTags = [...new Set(allPosts.flatMap(post => post.data.tags || []))];
+
+export async function getStaticPaths() {
+  return allTags.map((tag) => {
+    const slug = tag.replace(/\s+/g, "-").toLowerCase();
+    return {
+      params: { tag: slug },
+      props: { originalTag: tag },
+    };
+  });
+}
+
+const { originalTag } = Astro.props;
+
+const filteredPosts = allPosts.filter(post => 
+  post.data.tags && post.data.tags.includes(originalTag)
+);
+---
+
+<MainGridLayout title={`标签: ${originalTag}`}>
+  <div class="container mx-auto px-4 py-8">
+    <div class="mb-8 p-6 rounded-2xl bg-white/70 dark:bg-black/50 backdrop-blur-md">
+      <h1 class="text-2xl font-bold text-[--primary]">标签: {originalTag}</h1>
+      <p class="text-sm mt-2 opacity-70">共找到 {filteredPosts.length} 篇文章</p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {filteredPosts.map((post) => (
+        <a href={getPostUrlBySlug(post.id)} class="block p-6 rounded-2xl bg-white/70 dark:bg-black/50 backdrop-blur-md hover:scale-105 transition-transform">
+          <h2 class="text-xl font-bold">{post.data.title}</h2>
+          <p class="text-sm mt-2 opacity-70">{post.data.date.toLocaleDateString()}</p>
+        </a>
+      ))}
+    </div>
+  </div>
+</MainGridLayout>
