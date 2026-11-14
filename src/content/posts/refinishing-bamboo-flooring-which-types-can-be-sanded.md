@@ -6,7 +6,7 @@ description: "Not every bamboo floor can be sanded. See how horizontal, vertical
 tags: ["bamboo flooring", "refinishing bamboo", "strand woven bamboo"]
 category: "bamboo flooring"
 draft: false
-image: "@assets/gallery/refinishing-bamboo-flooring-hero.jpg"
+image: "@assets/images/gallery/refinishing-bamboo-flooring-hero.jpg"
 ---
 
 The short answer, before you rent anything: strand woven bamboo usually takes a sander well. Solid horizontal and vertical bamboo can sometimes be sanded once. Engineered bamboo with a thin wear layer generally cannot be sanded at all, no matter what the person at the flooring warehouse tells you.
@@ -15,7 +15,7 @@ That distinction has nothing to do with brand loyalty or how much you paid for t
 
 Homeowners get caught out because the word bamboo covers at least four different products, and they all look similar in a showroom under warm lighting.
 
-![Cross-section lineup of four bamboo flooring planks showing horizontal, vertical, strand woven, and engineered construction with visible wear layers](@assets/gallery/refinishing-bamboo-flooring-hero.jpg)
+![Cross-section lineup of four bamboo flooring planks showing horizontal, vertical, strand woven, and engineered construction with visible wear layers](@assets/images/gallery/refinishing-bamboo-flooring-hero.jpg)
 
 ## Why Construction Decides Everything
 
@@ -39,7 +39,7 @@ Engineered boards have a bamboo wear layer glued to a plywood or high-density fi
 
 A strand woven floor with a factory finish at least one millimeter thick can be sanded and refinished two or three times over its service life. Each full sanding removes somewhere between 0.3 and 0.5 millimeters. A well-made board from a supplier like Dasso or Cali leaves enough material for one proper restoration after ten or fifteen years of traffic, and sometimes two if the first pass stays light.
 
-![Drum sander cutting a strand woven bamboo floor with fine dust rising, operator in knee pads guiding the machine along the grain](@assets/gallery/refinishing-bamboo-flooring-drum-sander.jpg)
+![Drum sander cutting a strand woven bamboo floor with fine dust rising, operator in knee pads guiding the machine along the grain](@assets/images/gallery/refinishing-bamboo-flooring-drum-sander.jpg)
 
 ### Solid horizontal and vertical, sometimes
 
@@ -49,7 +49,7 @@ These boards have depth, but the grain runs in a single direction. A drum sander
 
 Some premium engineered lines, including those sold under Plyboo and Teragren, publish wear layer thickness in their technical specifications. Two millimeters of bamboo over a stable core can handle a very light screening. It cannot handle a full sanding, and no warranty covers a floor that has been cut through.
 
-![Close-up of a bamboo plank edge being measured with a steel ruler to show a thin wear layer above the fiberboard core](@assets/gallery/refinishing-bamboo-flooring-wear-layer-measure.jpg)
+![Close-up of a bamboo plank edge being measured with a steel ruler to show a thin wear layer above the fiberboard core](@assets/images/gallery/refinishing-bamboo-flooring-wear-layer-measure.jpg)
 
 ## Which Types Cannot Be Sanded
 
@@ -65,7 +65,7 @@ A floating floor is not fastened to the subfloor. A drum sander pushes laterally
 
 Carbonized bamboo is heat-treated to darken the fibers, and that color only goes partway into the material. Sanding removes the tone and leaves a pale, uneven surface you cannot match to the rest of the room. Hand-scraped and wire-brushed finishes are shaped into the surface itself, so sanding flattens them permanently.
 
-![Lifted click-lock bamboo plank showing a thin top veneer and a fiberboard core, joints slightly separated at the seam](@assets/gallery/refinishing-bamboo-flooring-click-lock-core.jpg)
+![Lifted click-lock bamboo plank showing a thin top veneer and a fiberboard core, joints slightly separated at the seam](@assets/images/gallery/refinishing-bamboo-flooring-click-lock-core.jpg)
 
 ## Test the Wear Layer Yourself
 
@@ -79,7 +79,7 @@ Before committing to a full sanding, ask about a screen and recoat. A floor with
 
 The catch is compatibility. A screen and recoat only works over a polyurethane finish. Floors finished with wax or oil need different products, and deep scratches that reach the bamboo will still show afterward.
 
-![Orbital buffer applying a thin coat of finish to a bamboo floor in a cleared living room, plastic sheeting over the baseboards](@assets/gallery/refinishing-bamboo-flooring-screen-recoat.jpg)
+![Orbital buffer applying a thin coat of finish to a bamboo floor in a cleared living room, plastic sheeting over the baseboards](@assets/images/gallery/refinishing-bamboo-flooring-screen-recoat.jpg)
 
 ## When the Floor Is Past Saving
 
@@ -103,7 +103,7 @@ Rarely. The planks are not anchored, and the machine's lateral force opens the j
 
 Slightly, yes. Natural bamboo lightens a shade once the factory finish comes off, and carbonized bamboo loses depth because the tint only sits in the outer layer. Expect a floor that looks newer, not identical.
 
-![Split view of a carbonized bamboo floor with one sanded patch showing the pale original color against the darker surrounding surface](@assets/gallery/refinishing-bamboo-flooring-carbonized-color-mismatch.jpg)
+![Split view of a carbonized bamboo floor with one sanded patch showing the pale original color against the darker surrounding surface](@assets/images/gallery/refinishing-bamboo-flooring-carbonized-color-mismatch.jpg)
 
 ### How many times can bamboo be sanded?
 
