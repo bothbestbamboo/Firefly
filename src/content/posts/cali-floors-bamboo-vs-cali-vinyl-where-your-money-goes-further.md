@@ -3,7 +3,7 @@ title: "Cali Floors Bamboo vs. Cali Vinyl: Where Your Money Goes Further"
 published: 2026-11-14
 pinned: false
 description: "Cali Floors sells both bamboo and vinyl, but they belong in different rooms. This breakdown compares hardness, water resistance, installation cost, and resale value so you can decide before buying."
-tags: ["cali floors bamboo"]
+tags: ["bamboo flooring"]
 category: "bamboo flooring"
 draft: false
 image: "../../assets/images/gallery/cali-floors-bamboo-vs-cali-vinyl-hero.jpg"
