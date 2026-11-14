@@ -134,9 +134,9 @@ if (isLocalSrcLogo) {
             </div>
             
             <!-- 右侧工具栏：仅保留搜索、明暗切换、移动端菜单 -->
-            <div class="flex col-start-3 items-center justify-self-end gap-2">
-                <!-- 包裹一层，让搜索框变长 -->
-                <div class="hidden lg:block w-[400px] xl:w-[500px] transition-all">
+            <div class="flex col-start-3 items-center justify-self-end gap-2 min-w-0">
+                <!-- 搜索框容器：改为合理的弹性宽度，防止越界挤压 -->
+                <div class="hidden lg:block w-48 xl:w-56 2xl:w-64 transition-all duration-300">
                     <Search client:load />
                 </div>
 
