@@ -217,7 +217,7 @@ const BUSINESS = {
   </div>
 </MainGridLayout>
 
-<style lang="less">
+<style>
 	/* PAGE-SPECIFIC STYLES FOR THE CONTACT PAGE */
 	
 	// 基础变量设定，确保和 Firefly 主题融合
@@ -280,59 +280,61 @@ const BUSINESS = {
 				margin-bottom: 2rem;
 				display: flex;
 				flex-direction: column;
-				
-				label {
-					font-size: 1rem;
-					font-weight: 700;
-					line-height: 1.5em;
-					margin-bottom: 1.25rem;
-					color: var(--headerColor);
-					display: flex;
-					flex-direction: column;
-					justify-content: center;
-					align-items: flex-start;
-				}
-
-				.cs-label-message { margin-bottom: 2rem; }
-
-				input,
-				textarea {
-					font-size: 1rem;
-					width: 100%;
-					height: 4rem;
-					margin-top: 0.25rem;
-					box-sizing: border-box;
-					padding-left: 1.25rem;
-					border: 1px solid rgba(150, 150, 150, 0.3);
-					background-color: transparent;
-					border-radius: 0.5rem;
-					transition: border 0.3s;
-					color: var(--headerColor);
-
-					&:hover { border: 1px solid var(--primary); }
-					&:focus { outline: none; border: 1px solid var(--primary); }
-				}
-
-				textarea {
-					font-family: inherit;
-					min-height: 8rem;
-					padding-top: 1.25rem;
-				}
-
-				.cs-button-solid {
-					width: 100%;
-					border: none;
-					background-color: var(--primary);
-					color: #fff;
-					padding: 1rem;
-					border-radius: 0.5rem;
-					font-weight: 700;
-					font-size: 1rem;
-					cursor: pointer;
-					transition: opacity 0.3s;
-					&:hover { opacity: 0.9; }
-				}
 			}
+			
+			#cs-form label {
+				font-size: 1rem;
+				font-weight: 700;
+				line-height: 1.5em;
+				margin-bottom: 1.25rem;
+				color: var(--headerColor);
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: flex-start;
+			}
+
+			#cs-form .cs-label-message { margin-bottom: 2rem; }
+
+			#cs-form input,
+			#cs-form textarea {
+				font-size: 1rem;
+				width: 100%;
+				height: 4rem;
+				margin-top: 0.25rem;
+				box-sizing: border-box;
+				padding-left: 1.25rem;
+				border: 1px solid rgba(150, 150, 150, 0.3);
+				background-color: transparent;
+				border-radius: 0.5rem;
+				transition: border 0.3s;
+				color: var(--headerColor);
+			}
+
+			#cs-form input:hover,
+			#cs-form textarea:hover { border: 1px solid var(--primary); }
+			#cs-form input:focus,
+			#cs-form textarea:focus { outline: none; border: 1px solid var(--primary); }
+
+			#cs-form textarea {
+				font-family: inherit;
+				min-height: 8rem;
+				padding-top: 1.25rem;
+			}
+
+			#cs-form .cs-button-solid {
+				width: 100%;
+				border: none;
+				background-color: var(--primary);
+				color: #fff;
+				padding: 1rem;
+				border-radius: 0.5rem;
+				font-weight: 700;
+				font-size: 1rem;
+				cursor: pointer;
+				transition: opacity 0.3s;
+			}
+			#cs-form .cs-button-solid:hover { opacity: 0.9; }
 
 			.cs-right-section {
 				height: 20rem;
@@ -365,10 +367,10 @@ const BUSINESS = {
 				position: relative;
 				z-index: 2;
 				font-weight: 500;
-
-				&:hover { text-decoration: underline; }
-				&:last-of-type { margin-bottom: 0; }
 			}
+
+			.cs-link:hover { text-decoration: underline; }
+			.cs-link:last-of-type { margin-bottom: 0; }
 
 			.cs-block { display: block; }
 
@@ -381,84 +383,77 @@ const BUSINESS = {
 				left: 0;
 				z-index: 0;
 				transition: transform 0.6s;
+			}
 
-				&::before {
-					content: "";
-					width: 100%;
-					height: 100%;
-					background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%);
-					display: block;
-					position: absolute;
-					top: 0;
-					left: 0;
-					z-index: 1;
-				}
+			.cs-bg-picture::before {
+				content: "";
+				width: 100%;
+				height: 100%;
+				background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.8) 100%);
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 1;
+			}
 
-				img {
-					width: 100%;
-					height: 100%;
-					object-fit: cover;
-					position: absolute;
-					top: 0;
-					left: 0;
-				}
+			.cs-bg-picture img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				position: absolute;
+				top: 0;
+				left: 0;
 			}
 		}
 	}
 
 	/* Tablet - 700px */
 	@media only screen and (min-width: 43.75em) {
-		#cs-contact {
-			#cs-form {
-				flex-direction: row;
-				justify-content: space-between;
-				align-items: flex-start;
-				flex-wrap: wrap;
-
-				label { width: 48%; }
-				.cs-label-message { width: 100%; }
-			}
+		#cs-contact #cs-form {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-start;
+			flex-wrap: wrap;
 		}
+		#cs-contact #cs-form label { width: 48%; }
+		#cs-contact #cs-form .cs-label-message { width: 100%; }
 	}
 
 	/* Small Desktop - 1024px */
 	@media only screen and (min-width: 64em) {
-		#cs-contact {
-			.cs-container {
-				display: flex;
-				flex-direction: row;
-				justify-content: flex-end;
-				align-items: stretch;
-				gap: 3rem;
-			}
-
-			#cs-form {
-				width: 60%;
-				label { width: 100%; }
-			}
-
-			.cs-right-section {
-				width: 40%;
-				flex: none;
-				height: auto;
-				&:hover { .cs-bg-picture { transform: scale(1.05); } }
-			}
-
-			.cs-block { display: inline-block; }
+		#cs-contact .cs-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: stretch;
+			gap: 3rem;
 		}
+
+		#cs-contact #cs-form {
+			width: 60%;
+		}
+		#cs-contact #cs-form label { width: 100%; }
+
+		#cs-contact .cs-right-section {
+			width: 40%;
+			flex: none;
+			height: auto;
+		}
+		#cs-contact .cs-right-section:hover .cs-bg-picture { transform: scale(1.05); }
+
+		#cs-contact .cs-block { display: inline-block; }
 	}
 
 	/* Small Desktop - 1300px */
 	@media only screen and (min-width: 81.25em) {
-		#cs-contact {
-			#cs-form {
-				flex-direction: row;
-				label {
-					width: 48%;
-				}
-				.cs-label-message { width: 100%; }
-			}
+		#cs-contact #cs-form {
+			flex-direction: row;
 		}
+		#cs-contact #cs-form label {
+			width: 48%;
+		}
+		#cs-contact #cs-form .cs-label-message { width: 100%; }
 	}
 
 	/*-- -------------------------- -->
@@ -469,219 +464,219 @@ const BUSINESS = {
 	@media only screen and (min-width: 0em) {
 		#cs-location {
 			padding: 2rem 0;
-
-			.cs-location-container {
-				width: 100%;
-				max-width: 80rem;
-				margin: auto;
-			}
-
-			.cs-location-header {
-				text-align: center;
-				margin-bottom: 2rem;
-
-				.cs-topper {
-					display: block;
-					margin-bottom: 0.5rem;
-					color: var(--primary);
-					font-weight: 700;
-					text-transform: uppercase;
-				}
-
-				.cs-title { margin: 0; font-size: 2rem; font-weight: 700; color: var(--headerColor); }
-			}
-
-			.cs-location-content {
-				display: flex;
-				flex-direction: column;
-				gap: 2rem;
-			}
-
-			.cs-map-wrapper { width: 100%; }
-
-			.cs-map-link {
-				display: block;
-				width: 100%;
-				height: auto;
-				aspect-ratio: 1278 / 832; 
-				border-radius: 0.75rem;
-				overflow: hidden;
-				position: relative;
-				box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
-				text-decoration: none;
-
-				&:hover {
-					.cs-map-picture img { transform: scale(1.02); }
-					.cs-map-btn { background-color: var(--primary); color: #fff; }
-				}
-			}
-
-			.cs-map-picture {
-				width: 100%;
-				height: 100%;
-				display: block;
-
-				img {
-					width: 100%;
-					height: 100%;
-					object-fit: cover; 
-					display: block;
-					transition: transform 0.5s ease;
-				}
-			}
-
-			.cs-map-overlay {
-				position: absolute;
-				bottom: 1rem;
-				right: 1.5rem;
-				z-index: 2;
-				background: rgba(255, 255, 255, 0.92);
-				backdrop-filter: blur(8px);
-				padding: 0.75rem 1rem;
-				border-radius: 0.5rem;
-				box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-				max-width: 18rem;
-				transition: background-color 0.3s;
-			}
-
-			.cs-map-badge {
-				font-size: 0.75rem;
-				font-weight: 700;
-				text-transform: uppercase;
-				color: var(--primary);
-				display: block;
-				margin-bottom: 0.25rem;
-			}
-
-			.cs-map-address {
-				font-size: 0.875rem;
-				font-weight: 600;
-				color: #111;
-				margin: 0 0 0.75rem 0;
-				line-height: 1.3em;
-			}
-
-			.cs-map-btn {
-				display: inline-block;
-				font-size: 0.8rem;
-				font-weight: 700;
-				color: #111;
-				padding: 0.4rem 0.75rem;
-				border: 1px solid var(--primary);
-				border-radius: 0.25rem;
-				transition: background-color 0.3s, color 0.3s;
-			}
-
-			.cs-info-wrapper {
-				width: 100%;
-				display: flex;
-				flex-direction: column;
-				gap: 1.5rem;
-				justify-content: center;
-			}
-
-			.cs-info-card {
-				display: flex;
-				gap: 1rem;
-				padding: 1.5rem;
-				background-color: var(--btn-plain-bg);
-				border-radius: 0.75rem;
-				border: 1px solid var(--line-divider);
-				transition: transform 0.3s, box-shadow 0.3s;
-
-				&:hover {
-					transform: translateY(-2px);
-					box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
-				}
-			}
-
-			.cs-icon-wrapper {
-				width: 3rem;
-				height: 3rem;
-				background-color: rgba(0, 0, 0, 0.04);
-				border-radius: 50%;
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				flex-shrink: 0;
-			}
-
-			.cs-icon {
-				width: 1.5rem;
-				height: 1.5rem;
-				fill: var(--primary);
-			}
-
-			.cs-info-title {
-				font-size: 1.125rem;
-				font-weight: 700;
-				color: var(--headerColor);
-				margin: 0 0 0.5rem 0;
-			}
-
-			.cs-info-desc {
-				font-size: 0.95rem;
-				line-height: 1.5em;
-				color: var(--bodyTextColor);
-				margin: 0;
-				strong { color: var(--headerColor); }
-			}
 		}
+
+		#cs-location .cs-location-container {
+			width: 100%;
+			max-width: 80rem;
+			margin: auto;
+		}
+
+		#cs-location .cs-location-header {
+			text-align: center;
+			margin-bottom: 2rem;
+		}
+
+		#cs-location .cs-location-header .cs-topper {
+			display: block;
+			margin-bottom: 0.5rem;
+			color: var(--primary);
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+
+		#cs-location .cs-location-header .cs-title { margin: 0; font-size: 2rem; font-weight: 700; color: var(--headerColor); }
+
+		#cs-location .cs-location-content {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+		}
+
+		#cs-location .cs-map-wrapper { width: 100%; }
+
+		#cs-location .cs-map-link {
+			display: block;
+			width: 100%;
+			height: auto;
+			aspect-ratio: 1278 / 832; 
+			border-radius: 0.75rem;
+			overflow: hidden;
+			position: relative;
+			box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
+			text-decoration: none;
+		}
+
+		#cs-location .cs-map-link:hover .cs-map-picture img { transform: scale(1.02); }
+		#cs-location .cs-map-link:hover .cs-map-btn { background-color: var(--primary); color: #fff; }
+
+		#cs-location .cs-map-picture {
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+
+		#cs-location .cs-map-picture img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover; 
+			display: block;
+			transition: transform 0.5s ease;
+		}
+
+		#cs-location .cs-map-overlay {
+			position: absolute;
+			bottom: 1rem;
+			right: 1.5rem;
+			z-index: 2;
+			background: rgba(255, 255, 255, 0.92);
+			backdrop-filter: blur(8px);
+			padding: 0.75rem 1rem;
+			border-radius: 0.5rem;
+			box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+			max-width: 18rem;
+			transition: background-color 0.3s;
+		}
+
+		#cs-location .cs-map-badge {
+			font-size: 0.75rem;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: var(--primary);
+			display: block;
+			margin-bottom: 0.25rem;
+		}
+
+		#cs-location .cs-map-address {
+			font-size: 0.875rem;
+			font-weight: 600;
+			color: #111;
+			margin: 0 0 0.75rem 0;
+			line-height: 1.3em;
+		}
+
+		#cs-location .cs-map-btn {
+			display: inline-block;
+			font-size: 0.8rem;
+			font-weight: 700;
+			color: #111;
+			padding: 0.4rem 0.75rem;
+			border: 1px solid var(--primary);
+			border-radius: 0.25rem;
+			transition: background-color 0.3s, color 0.3s;
+		}
+
+		#cs-location .cs-info-wrapper {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			gap: 1.5rem;
+			justify-content: center;
+		}
+
+		#cs-location .cs-info-card {
+			display: flex;
+			gap: 1rem;
+			padding: 1.5rem;
+			background-color: var(--btn-plain-bg);
+			border-radius: 0.75rem;
+			border: 1px solid var(--line-divider);
+			transition: transform 0.3s, box-shadow 0.3s;
+		}
+
+		#cs-location .cs-info-card:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+		}
+
+		#cs-location .cs-icon-wrapper {
+			width: 3rem;
+			height: 3rem;
+			background-color: rgba(0, 0, 0, 0.04);
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-shrink: 0;
+		}
+
+		#cs-location .cs-icon {
+			width: 1.5rem;
+			height: 1.5rem;
+			fill: var(--primary);
+		}
+
+		#cs-location .cs-info-title {
+			font-size: 1.125rem;
+			font-weight: 700;
+			color: var(--headerColor);
+			margin: 0 0 0.5rem 0;
+		}
+
+		#cs-location .cs-info-desc {
+			font-size: 0.95rem;
+			line-height: 1.5em;
+			color: var(--bodyTextColor);
+			margin: 0;
+		}
+		#cs-location .cs-info-desc strong { color: var(--headerColor); }
 	}
 
 	/* Tablet & Desktop - 1024px 以上 */
 	@media only screen and (min-width: 64em) {
-		#cs-location {
-			.cs-location-content {
-				flex-direction: row;
-				align-items: stretch;
-				gap: 2.5rem;
-			}
-
-			.cs-map-wrapper {
-				width: 55%;
-				flex-shrink: 0;
-			}
-
-			.cs-map-link { height: 100%; }
-			.cs-map-overlay { bottom: 1.25rem; right: 1.5rem; max-width: 18rem; padding: 1rem; }
-
-			.cs-info-wrapper { width: 45%; }
-			.cs-info-card { padding: 1.75rem; }
+		#cs-location .cs-location-content {
+			flex-direction: row;
+			align-items: stretch;
+			gap: 2.5rem;
 		}
+
+		#cs-location .cs-map-wrapper {
+			width: 55%;
+			flex-shrink: 0;
+		}
+
+		#cs-location .cs-map-link { height: 100%; }
+		#cs-location .cs-map-overlay { bottom: 1.25rem; right: 1.5rem; max-width: 18rem; padding: 1rem; }
+
+		#cs-location .cs-info-wrapper { width: 45%; }
+		#cs-location .cs-info-card { padding: 1.75rem; }
 	}
 
 	/* ==========================================================================
        🌟 暗黑模式适配 (匹配 Firefly 的 .dark 选择器)
        ========================================================================== */
-	:global(html.dark) {
-		#cs-contact {
-			--headerColor: #f3f4f6;
-			--bodyTextColor: #d1d5db;
+	:global(html.dark) #cs-contact {
+		--headerColor: #f3f4f6;
+		--bodyTextColor: #d1d5db;
+	}
 
-			input, textarea {
-				background-color: rgba(255, 255, 255, 0.05);
-				border-color: rgba(255, 255, 255, 0.1);
-				color: #fff !important;
-			}
-		}
+	:global(html.dark) #cs-contact input, 
+	:global(html.dark) #cs-contact textarea {
+		background-color: rgba(255, 255, 255, 0.05);
+		border-color: rgba(255, 255, 255, 0.1);
+		color: #fff !important;
+	}
 
-		#cs-location {
-			--headerColor: #f3f4f6;
-			--bodyTextColor: #d1d5db;
+	:global(html.dark) #cs-location {
+		--headerColor: #f3f4f6;
+		--bodyTextColor: #d1d5db;
+	}
 
-			.cs-map-overlay {
-				background: rgba(30, 30, 30, 0.95) !important;
-				border: 1px solid rgba(255, 255, 255, 0.1);
-				.cs-map-address, .cs-map-btn {
-					color: #fff !important;
-				}
-			}
+	:global(html.dark) #cs-location .cs-map-overlay {
+		background: rgba(30, 30, 30, 0.95) !important;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+	}
 
-			.cs-info-card {
-				background-color: rgba(255, 255, 255, 0.03) !important;
-				.cs-icon-wrapper { background-color: rgba(255, 255, 255, 0.08); }
-			}
-		}
+	:global(html.dark) #cs-location .cs-map-overlay .cs-map-address, 
+	:global(html.dark) #cs-location .cs-map-overlay .cs-map-btn {
+		color: #fff !important;
+	}
+
+	:global(html.dark) #cs-location .cs-info-card {
+		background-color: rgba(255, 255, 255, 0.03) !important;
+	}
+
+	:global(html.dark) #cs-location .cs-info-card .cs-icon-wrapper { 
+		background-color: rgba(255, 255, 255, 0.08); 
 	}
 </style>
