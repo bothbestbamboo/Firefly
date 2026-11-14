@@ -41,7 +41,9 @@ export function getPostUrlBySlug(slug: string): string {
 
 export function getTagUrl(tag: string): string {
 	if (!tag) return url("/archive/");
-	return url(`/archive/?tag=${encodeURIComponent(tag.trim())}`);
+	// 修改：将空格替换为连字符
+	const formattedTag = tag.trim().replace(/\s+/g, "-");
+	return url(`/archive/?tag=${encodeURIComponent(formattedTag)}`);
 }
 
 export function getCategoryUrl(category: string | null): string {
@@ -51,7 +53,10 @@ export function getCategoryUrl(category: string | null): string {
 		category.trim().toLowerCase() === i18n(I18nKey.uncategorized).toLowerCase()
 	)
 		return url("/archive/?uncategorized=true");
-	return url(`/archive/?category=${encodeURIComponent(category.trim())}`);
+	
+	// 修改：将空格替换为连字符
+	const formattedCategory = category.trim().replace(/\s+/g, "-");
+	return url(`/archive/?category=${encodeURIComponent(formattedCategory)}`);
 }
 
 export function getDir(path: string): string {
