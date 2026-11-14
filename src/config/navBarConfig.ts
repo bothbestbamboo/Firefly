@@ -73,19 +73,19 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "Bamboo Flooring",
-				url: "https://www.bambooindustry.com/bamboo-flooring/",
+				url: "https://www.bambooindustry.com/product/flooring/",
 				external: true,
 				icon: "fa7-brands:github",
 			},
 			{
 				name: "Bamboo Plywood",
-				url: "https://www.bambooindustry.com/bamboo-plywood/",
+				url: "https://www.bambooindustry.com/product/plywood/",
 				external: true,
 				icon: "fa7-brands:gitee",
 			},
 			{
 				name: "Bamboo Decking",
-				url: "https://www.bambooindustry.com/bamboo-decking/",
+				url: "https://www.bambooindustry.com/product/decking/",
 				external: true,
 				icon: "fa7-brands:qq",
 			},
