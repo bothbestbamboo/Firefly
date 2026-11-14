@@ -6,7 +6,7 @@ description: "Not every bamboo floor can be sanded. See how horizontal, vertical
 tags: ["bamboo flooring", "refinishing bamboo", "strand woven bamboo"]
 category: "bamboo flooring"
 draft: false
-image: "@assets/images/gallery/refinishing-bamboo-flooring-hero.jpg"
+image: "../../assets/images/gallery/refinishing-bamboo-flooring-hero.jpg"
 ---
 
 The short answer, before you rent anything: strand woven bamboo usually takes a sander well. Solid horizontal and vertical bamboo can sometimes be sanded once. Engineered bamboo with a thin wear layer generally cannot be sanded at all, no matter what the person at the flooring warehouse tells you.
