@@ -5,24 +5,28 @@ import { i18n } from "@i18n/translation";
 import MainGridLayout from "@layouts/MainGridLayout.astro";
 import { getSortedPostsList } from "@/utils/content-utils";
 
+// 1. 获取旧 URL 中的参数
+const url = new URL(Astro.request.url);
+const categoryParam = url.searchParams.get("category");
+const tagParam = url.searchParams.get("tag");
+
+// 2. 如果存在旧的 category 参数，重定向到新的干净路径
+if (categoryParam) {
+  const formattedCategory = categoryParam.trim().replace(/\s+/g, "-").toLowerCase();
+  return Astro.redirect(`/archive/category/${encodeURIComponent(formattedCategory)}/`, 301);
+}
+
+// 3. 如果存在旧的 tag 参数，重定向到新的干净路径
+if (tagParam) {
+  const formattedTag = tagParam.trim().replace(/\s+/g, "-").toLowerCase();
+  return Astro.redirect(`/archive/tag/${encodeURIComponent(formattedTag)}/`, 301);
+}
+
+// 4. 如果没有查询参数，正常渲染页面
 const sortedPostsList = await getSortedPostsList();
 ---
 
 <MainGridLayout title={i18n(I18nKey.archive)}>
-  <script is:inline>
-    (function() {
-      var p = new URLSearchParams(location.search);
-      var cat = p.get("category") || "";
-      var tag = p.get("tag") || "";
-      var unc = p.get("uncategorized");
-      var t = cat || (unc ? "未分类" : "") || (tag ? "#" + tag : "");
-      if (t) {
-        requestAnimationFrame(function() {
-          var el = document.querySelector(".banner-page-title-text");
-          if (el) el.textContent = t;
-        });
-      }
-    })();
-  </script>
+  <!-- 之前那段拦截 query 参数的内联 JS 脚本可以删掉了，因为上面已经处理了 -->
   <ArchivePanel sortedPosts={sortedPostsList} client:only="svelte" />
 </MainGridLayout>
