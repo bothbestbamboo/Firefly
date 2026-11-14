@@ -6,7 +6,7 @@ description: "When embarking on a residential renovation or executing a commerci
 tags: ["bamboo floor", "homedepot"]
 category: "bamboo flooring"
 draft: false
-image: "../../assets/images/gallery/refinishing-bamboo-flooring-hero.jpg"
+image: "../../assets/images/gallery/bamboo-flooring-buying-guide.jpg"
 ---
 
 When embarking on a residential renovation or executing a commercial property development, choosing your sourcing pipeline is just as important as selecting the raw material itself. As a rapidly renewable, eco-friendly surface material, **[bamboo flooring](https://www.bambooindustry.com)** has established a powerful foothold in the building community, prized for its immense structural durability and visual warmth. However, once you finalize your design layout, you face a major procurement dilemma: should you source the planks from a massive big-box retailer like Home Depot, or should you partner with a dedicated specialty brand?
