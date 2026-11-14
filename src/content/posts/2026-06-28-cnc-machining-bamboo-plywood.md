@@ -4,8 +4,8 @@ description: "Many operators approach bamboo expecting it to behave like typical
 published: 2026-06-28
 image: "../../assets/images/gallery/cnc-bamboo-plywood.jpg"
 draft: false
-tags: ["bamboo plywood"]
-category: "bamboo"
+tags: ["cnc-machining", "bamboo-plywood", "machining-parameters", "tool-wear"]
+category: "Bamboo Panels"
 ---
 
 Working with bamboo plywood offers a compelling mix of sustainability, striking aesthetics, and impressive structural strength. Derived from a fast-growing grass rather than traditional timber, this engineered material has steadily found its way into high-end cabinetry, architectural panels, custom furniture, and musical instruments. However, the exact structural traits that make it durable also introduce a distinct set of challenges when it comes to computer numerical control (CNC) machining. 

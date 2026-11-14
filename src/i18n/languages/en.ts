@@ -53,14 +53,14 @@ export const en: Translation = {
 	[Key.commentNotConfigured]: "Comment system not configured",
 	[Key.guestbookCommentHint]:
 		"You have not enabled the comment system in the configuration file yet. After enabling it, visitors will be able to leave messages here",
-	[Key.friends]: "Friends",
+	[Key.friends]: "Partners",
 	[Key.friendsDescription]:
-		"Here are my friends, welcome to visit and communicate with each other",
-	[Key.searchFriends]: "Search friends...",
-	[Key.friendsEmpty]: "No friends yet.",
-	[Key.guestbook]: "Guestbook",
+		"Here are our global partners and certified institutions.",
+	[Key.searchFriends]: "Search partners...",
+	[Key.friendsEmpty]: "No partners yet.",
+	[Key.guestbook]: "Contact Us",
 	[Key.guestbookDescription]:
-		"Welcome to leave your mark here, share your thoughts and suggestions",
+		"Have an inquiry? Leave your message here or contact our sales team directly.",
 	[Key.untitled]: "Untitled",
 	[Key.uncategorized]: "Uncategorized",
 	[Key.noTags]: "No Tags",
@@ -88,11 +88,11 @@ export const en: Translation = {
 	[Key.updatedAt]: "Updated at",
 	[Key.readTime]: "Read time",
 	[Key.license]: "License",
-	[Key.bangumi]: "Bangumi",
+	[Key.bangumi]: "Collection",
 
-	// Bangumi Filter and Status Text
-	[Key.bangumiTitle]: "My Bangumi",
-	[Key.bangumiSubtitle]: "Record my ACG journey",
+	// Bangumi Filter and Status Text (Adapted for general collection)
+	[Key.bangumiTitle]: "Our Collection",
+	[Key.bangumiSubtitle]: "Explore our product collections",
 	[Key.bangumiFilterAll]: "All",
 	[Key.bangumiFilterWatched]: "Watched",
 	[Key.bangumiFilterWatching]: "Watching",
@@ -128,13 +128,13 @@ export const en: Translation = {
 	[Key.bangumiEmpty]: "No Data",
 	[Key.bangumiEmptyReason]:
 		"Possible reasons: username does not exist, network connection issue, or API limit",
-	[Key.bangumiFetchError]: "Bangumi Data Fetch Failed",
+	[Key.bangumiFetchError]: "Data Fetch Failed",
 	[Key.bangumiFetchErrorDesc]:
-		"Failed to fetch data from Bangumi API during build. This page is temporarily unavailable.",
+		"Failed to fetch data during build. This page is temporarily unavailable.",
 	[Key.bangumiUsername]: "Username",
 	[Key.bangumiApi]: "API",
 	[Key.bangumiConfigTip]:
-		"Tip: Please set the correct Bangumi username in the page configuration",
+		"Tip: Please set the correct username in the page configuration",
 	[Key.bangumiPrevPage]: "Previous",
 	[Key.bangumiNextPage]: "Next",
 	[Key.bangumiCurrentPage]: "Page",
@@ -171,9 +171,9 @@ export const en: Translation = {
 	[Key.animeSource]: "Source",
 	[Key.animeEpStatus]: "Progress",
 	[Key.animeViewDetails]: "View Details",
-	[Key.animeNotConfigured]: "Anime data source not configured",
+	[Key.animeNotConfigured]: "Data source not configured",
 	[Key.animeNotConfiguredDesc]:
-		"Please configure Bilibili UID or TMDB API Key in src/config/siteConfig.ts",
+		"Please configure the API Key in src/config/siteConfig.ts",
 	[Key.animeBilibiliAvg]: "Bilibili Avg",
 	[Key.animeTmdbAvg]: "TMDB Avg",
 	[Key.animeDualSynced]: "Dual Synced",
@@ -213,7 +213,7 @@ export const en: Translation = {
 	[Key.rss]: "RSS Feed",
 	[Key.rssDescription]: "Subscribe to get latest updates",
 	[Key.rssSubtitle]:
-		"Subscribe via RSS to get the latest articles and updates imediately",
+		"Subscribe via RSS to get the latest articles and updates immediately",
 	[Key.rssLink]: "RSS Link",
 	[Key.rssCopyToReader]: "Copy link to your RSS reader",
 	[Key.rssCopyLink]: "Copy Link",
@@ -288,9 +288,9 @@ export const en: Translation = {
 
 	// Sponsor Page
 	[Key.sponsor]: "Sponsor",
-	[Key.sponsorTitle]: "Support Me",
+	[Key.sponsorTitle]: "Support Us",
 	[Key.sponsorDescription]:
-		"If my content has been helpful to you, welcome to sponsor me through the following methods. Your support is the driving force for my continued creation!",
+		"If our content has been helpful to you, welcome to sponsor us through the following methods. Your support is the driving force for our continued creation!",
 	[Key.sponsorMethods]: "Payment Methods",
 	[Key.sponsorList]: "Sponsors",
 	[Key.sponsorEmpty]: "No sponsors yet",
@@ -371,14 +371,14 @@ export const en: Translation = {
 	[Key.codeCollapsibleExpanded]: "Code block expanded",
 	[Key.codeCollapsibleCollapsed]: "Code block collapsed",
 
-	// Gallery Page
-	[Key.gallery]: "Gallery",
-	[Key.galleryDescription]: "Capturing beautiful moments in life",
+	// Gallery Page - **这部分已为你全面替换为工厂/展厅话术**
+	[Key.gallery]: "Media Gallery",
+	[Key.galleryDescription]: "Explore Bothbest's manufacturing capabilities, product details, and global partnerships through our visual journey.",
 	[Key.galleryPhotos]: "photos",
 	[Key.galleryAlbums]: "albums",
-	[Key.galleryNoAlbums]: "No albums yet",
+	[Key.galleryNoAlbums]: "No albums available.",
 	[Key.galleryBackToAlbums]: "Back to albums",
-	[Key.searchAlbums]: "Search albums...",
+	[Key.searchAlbums]: "Search our gallery...",
 
 	// Password Protection
 	[Key.passwordProtected]: "Password Protected",
