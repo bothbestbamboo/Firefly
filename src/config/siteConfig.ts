@@ -57,7 +57,7 @@ export const siteConfig: SiteConfig = {
 			value: "/favicon/logo.png",
 			alt: "Bothbest Bamboo Logo",
 		},
-		title: "Bothbest",
+		title: "Bothbest Bamboo",
 		widthFull: false,
 		menuAlign: "center",
 		followTheme: false,
