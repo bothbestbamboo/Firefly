@@ -1,17 +1,16 @@
 ---
 import { getCollection } from 'astro:content';
 import MainGridLayout from '@layouts/MainGridLayout.astro';
-import { getPostUrlBySlug } from '@/utils/url-utils'; // 引入你的 URL 生成工具
-// 如果你有专门的文章卡片组件，请替换下面的原生 HTML 标签
-// import PostCard from '@/components/PostCard.astro'; 
+import { getPostUrlBySlug } from '@/utils/url-utils';
 
-const allPosts = await getCollection('posts'); 
-
-const allCategories = [...new Set(allPosts.flatMap(post => 
-  post.data.category ? (Array.isArray(post.data.category) ? post.data.category : [post.data.category]) : []
-))];
-
+// 1. 必须在 getStaticPaths 内部获取数据并生成路径
 export async function getStaticPaths() {
+  const allPosts = await getCollection('posts'); 
+  
+  const allCategories = [...new Set(allPosts.flatMap(post => 
+    post.data.category ? (Array.isArray(post.data.category) ? post.data.category : [post.data.category]) : []
+  ))];
+
   return allCategories.map((category) => {
     const slug = category.replace(/\s+/g, "-").toLowerCase();
     return {
@@ -21,8 +20,11 @@ export async function getStaticPaths() {
   });
 }
 
+// 2. 接收当前页面的分类参数
 const { originalCategory } = Astro.props;
 
+// 3. 渲染页面时，再次获取文章并过滤
+const allPosts = await getCollection('posts'); 
 const filteredPosts = allPosts.filter(post => {
   if (!post.data.category) return false;
   const categories = Array.isArray(post.data.category) ? post.data.category : [post.data.category];
@@ -30,7 +32,6 @@ const filteredPosts = allPosts.filter(post => {
 });
 ---
 
-<!-- 替换为 MainGridLayout -->
 <MainGridLayout title={`分类: ${originalCategory}`}>
   <div class="container mx-auto px-4 py-8">
     <div class="mb-8 p-6 rounded-2xl bg-white/70 dark:bg-black/50 backdrop-blur-md">
@@ -38,10 +39,8 @@ const filteredPosts = allPosts.filter(post => {
       <p class="text-sm mt-2 opacity-70">共找到 {filteredPosts.length} 篇文章</p>
     </div>
     
-    <!-- 使用你主题自带的卡片样式 -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       {filteredPosts.map((post) => (
-        <!-- 建议换成你项目的 PostCard 组件 -->
         <a href={getPostUrlBySlug(post.id)} class="block p-6 rounded-2xl bg-white/70 dark:bg-black/50 backdrop-blur-md hover:scale-105 transition-transform">
           <h2 class="text-xl font-bold">{post.data.title}</h2>
           <p class="text-sm mt-2 opacity-70">{post.data.date.toLocaleDateString()}</p>
