@@ -62,7 +62,7 @@ Whether you are looking to place a bulk commercial order, source reliable OEM ma
 
 *   **Corporate Headquarters & Factory:** China
 *   **Core Portfolio:** Strand Woven Bamboo Flooring, Architectural Veneers, Engineered Panels & Countertops.
-*   **Official Digital Product Center:** [www.bambooflooringchina.com](http://www.bambooflooringchina.com)
+*   **Official Digital Product Center:** [www.bambooindustry.com](https://www.bambooindustry.com)
 
 Let us collaborate to build a greener, more resilient future with premium bamboo engineering. Partner with Bothbest—where sustainability meets structural perfection.
 
