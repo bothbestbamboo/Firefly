@@ -6,7 +6,7 @@ description: "When you stroll through a newly completed modern home or a high-en
 tags: ["bamboo veneer", "bamboo panels"]
 category: "bamboo panels"
 draft: false
-image: "https://img.bambooflooring.net/file/1782893337278.jpg"
+image: "../../assets/images/gallery/bamboo-veneer-1.jpg"
 ---
 
 Cabinet makers are constantly looking for materials that offer a perfect balance of durability, aesthetics, and modern appeal. While traditional hardwoods have long been the standard, alternative materials are rapidly gaining ground. Among these, bamboo stands out as an exceptionally resilient and visually striking option. Utilizing bamboo veneer for edge banding is a highly effective way to give cabinetry a clean, seamless, and high-end finish.
