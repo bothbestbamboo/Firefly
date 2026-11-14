@@ -29,7 +29,7 @@ export const siteConfig: SiteConfig = {
 
 	// 主题色 (保持原本的翠绿色，很符合竹子主题)
 	themeColor: {
-		hue: 145,
+		hue: 135,
 		fixed: true,
 		defaultMode: "system",
 	},
@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
 	// Favicon 配置
 	favicon: [
 		{
-			src: "https://www.bambooindustry.com/favicon.ico",
+			src: "/favicon/favicon.ico",
 		},
 	],
 
@@ -54,10 +54,10 @@ export const siteConfig: SiteConfig = {
 	navbar: {
 		logo: {
 			type: "image",
-			value: "https://www.bambooindustry.com/img/logo2026.png",
+			value: "/favicon/newlogo.png",
 			alt: "Bothbest Bamboo Logo",
 		},
-		title: "Bothbest Bamboo",
+		title: "Bothbest",
 		widthFull: false,
 		menuAlign: "center",
 		followTheme: false,
