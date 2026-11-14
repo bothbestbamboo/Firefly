@@ -33,7 +33,8 @@ const description = i18n(I18nKey.guestbookDescription);
 
 // 业务数据（请根据实际情况修改）
 const BUSINESS = {
-	email: "sales@allbambooflooring.com",
+	// 👇 修改点1：邮箱改成了 info@
+	email: "info@allbambooflooring.com", 
 	address: {
 		lineOne: "Economic Development Zone",
 		lineTwo: "Guangde City",
@@ -80,19 +81,6 @@ const BUSINESS = {
           method="POST"
           class="cs-form-wrapper"
         >
-          <div class="cs-content">
-            <span class="cs-topper">Inquiry</span>
-            <h2 class="cs-title">Get in Touch</h2>
-            <p class="cs-text">
-              Have a project in mind or looking for a reliable bamboo
-              manufacturing partner? As a leading bamboo factory,
-              Bothbest specializes in premium bamboo flooring, custom
-              panels, and innovative bamboo solutions. Drop us a
-              message with your specifications, volume requirements,
-              or questions, and our team will get back to you with an
-              expert quote within 24 hours.
-            </p>
-          </div>
           <label>
             Name
             <input required type="text" id="name" name="fi-sender-fullName" placeholder="Your Name" />
