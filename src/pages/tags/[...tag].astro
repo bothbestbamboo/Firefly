@@ -1,0 +1,54 @@
+---
+import type { GetStaticPaths } from "astro";
+import Pagination from "@/components/common/Pagination.astro";
+import PostPage from "@/components/layout/PostPage.astro";
+import { siteConfig } from "@/config";
+import MainGridLayout from "@/layouts/MainGridLayout.astro";
+import { getSortedPosts } from "@/utils/content-utils";
+
+export const getStaticPaths = (async ({ paginate }) => {
+	// 获取所有文章（自带排序）
+	const allBlogPosts = await getSortedPosts();
+	
+	// 提取所有标签并去重
+	const allTags = [...new Set(allBlogPosts.flatMap(post => post.data.tags || []))];
+	
+	// 为每个标签生成分页页面
+	return allTags.flatMap((tag) => {
+		// 从已经排好序的列表中，筛选出包含当前标签的文章
+		const filteredPosts = allBlogPosts.filter(post => post.data.tags?.includes(tag));
+		const pageSize = siteConfig.pagination.postsPerPage;
+		
+		return paginate(filteredPosts, {
+			params: { tag: tag },
+			props: { tag },
+			pageSize,
+		});
+	});
+}) satisfies GetStaticPaths;
+
+const { page, tag } = Astro.props;
+const len = page.data.length;
+---
+
+<MainGridLayout title={`Tag: ${tag}`}>
+  <!-- 顶部标题区域 -->
+  <div class="card-base px-6 py-4 mb-4">
+    <h1 class="text-2xl font-bold">Tag: {tag}</h1>
+    <p class="text-sm text-gray-500 mt-1">Found {page.total} posts</p>
+  </div>
+
+  <!-- 文章列表 -->
+  <PostPage page={page} />
+  
+  <!-- 分页组件 -->
+  {
+    page.total > page.size && (
+      <Pagination
+        class="mx-auto onload-animation"
+        page={page}
+        style={`animation-delay: calc(var(--content-delay) + ${len * 50}ms)`}
+      />
+    )
+  }
+</MainGridLayout>
