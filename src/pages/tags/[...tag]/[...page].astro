@@ -4,24 +4,45 @@ import Pagination from "@/components/common/Pagination.astro";
 import PostPage from "@/components/layout/PostPage.astro";
 import { siteConfig } from "@/config";
 import MainGridLayout from "@/layouts/MainGridLayout.astro";
-import { getSortedPosts } from "@/utils/content-utils";
+import { getCollection } from "astro:content";
 
 export const getStaticPaths = (async ({ paginate }) => {
-	// 获取所有文章（自带排序）
-	const allBlogPosts = await getSortedPosts();
-	
-	// 提取所有标签并去重
-	const allTags = [...new Set(allBlogPosts.flatMap(post => post.data.tags || []))];
-	
-	// 为每个标签生成分页页面
-	return allTags.flatMap((tag) => {
-		// 从已经排好序的列表中，筛选出包含当前标签的文章
-		const filteredPosts = allBlogPosts.filter(post => post.data.tags?.includes(tag));
+	const allBlogPosts = await getCollection("posts", ({ data }) => {
+		return import.meta.env.PROD ? data.draft !== true : true;
+	});
+
+	// 提取所有标签并去重（忽略大小写）
+	const uniqueTags = new Map<string, string>();
+	allBlogPosts.forEach(post => {
+		post.data.tags?.forEach(tag => {
+			const original = tag.trim();
+			const lower = original.toLowerCase();
+			if (!uniqueTags.has(lower)) {
+				uniqueTags.set(lower, original);
+			}
+		});
+	});
+	const allTags = Array.from(uniqueTags.entries());
+
+	return allTags.flatMap(([lowerTag, originalTag]) => {
+		// 过滤（忽略大小写）
+		const filteredPosts = allBlogPosts.filter(post => 
+			post.data.tags?.some(t => t.trim().toLowerCase() === lowerTag)
+		);
+
+		// 严格排序：置顶优先，然后时间倒序
+		filteredPosts.sort((a, b) => {
+			if (a.data.pinned && !b.data.pinned) return -1;
+			if (!a.data.pinned && b.data.pinned) return 1;
+			const dateA = new Date(a.data.published).getTime();
+			const dateB = new Date(b.data.published).getTime();
+			return dateB - dateA;
+		});
+
 		const pageSize = siteConfig.pagination.postsPerPage;
-		
 		return paginate(filteredPosts, {
-			params: { tag: tag },
-			props: { tag },
+			params: { tag: originalTag },
+			props: { tag: originalTag },
 			pageSize,
 		});
 	});
@@ -32,16 +53,13 @@ const len = page.data.length;
 ---
 
 <MainGridLayout title={`Tag: ${tag}`}>
-  <!-- 顶部标题区域 -->
   <div class="card-base px-6 py-4 mb-4">
     <h1 class="text-2xl font-bold">Tag: {tag}</h1>
     <p class="text-sm text-gray-500 mt-1">Found {page.total} posts</p>
   </div>
 
-  <!-- 文章列表 -->
   <PostPage page={page} />
   
-  <!-- 分页组件 -->
   {
     page.total > page.size && (
       <Pagination

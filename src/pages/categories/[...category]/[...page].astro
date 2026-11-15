@@ -4,24 +4,47 @@ import Pagination from "@/components/common/Pagination.astro";
 import PostPage from "@/components/layout/PostPage.astro";
 import { siteConfig } from "@/config";
 import MainGridLayout from "@/layouts/MainGridLayout.astro";
-import { getSortedPosts } from "@/utils/content-utils";
+import { getCollection } from "astro:content";
 
 export const getStaticPaths = (async ({ paginate }) => {
-	// 获取所有文章（注意：这里已经带有置顶和时间倒序的排序了）
-	const allBlogPosts = await getSortedPosts();
-	
-	// 提取所有分类并去重
-	const allCategories = [...new Set(allBlogPosts.map(post => post.data.category).filter(Boolean))];
-	
-	// 为每个分类生成分页页面
-	return allCategories.flatMap((category) => {
-		// 从已经排好序的列表中，筛选出当前分类的文章
-		const filteredPosts = allBlogPosts.filter(post => post.data.category === category);
+	// 1. 获取所有文章
+	const allBlogPosts = await getCollection("posts", ({ data }) => {
+		return import.meta.env.PROD ? data.draft !== true : true;
+	});
+
+	// 2. 提取所有分类并去重（忽略大小写，保留你原本输入的大写格式用于显示）
+	const uniqueCategories = new Map<string, string>();
+	allBlogPosts.forEach(post => {
+		if (post.data.category) {
+			const original = post.data.category.trim();
+			const lower = original.toLowerCase();
+			if (!uniqueCategories.has(lower)) {
+				uniqueCategories.set(lower, original);
+			}
+		}
+	});
+	const allCategories = Array.from(uniqueCategories.entries()); 
+
+	// 3. 为每个分类生成分页页面
+	return allCategories.flatMap(([lowerCat, originalCat]) => {
+		// 4. 过滤出当前分类的文章（忽略大小写进行匹配）
+		const filteredPosts = allBlogPosts.filter(post => 
+			post.data.category?.trim().toLowerCase() === lowerCat
+		);
+
+		// 5. 严格排序：置顶优先，然后时间倒序（最新在前）
+		filteredPosts.sort((a, b) => {
+			if (a.data.pinned && !b.data.pinned) return -1;
+			if (!a.data.pinned && b.data.pinned) return 1;
+			const dateA = new Date(a.data.published).getTime();
+			const dateB = new Date(b.data.published).getTime();
+			return dateB - dateA; 
+		});
+
 		const pageSize = siteConfig.pagination.postsPerPage;
-		
 		return paginate(filteredPosts, {
-			params: { category: category as string },
-			props: { category },
+			params: { category: originalCat }, // 使用原始大小写生成 URL
+			props: { category: originalCat },
 			pageSize,
 		});
 	});
@@ -32,16 +55,13 @@ const len = page.data.length;
 ---
 
 <MainGridLayout title={`Category: ${category}`}>
-  <!-- 顶部标题区域 -->
   <div class="card-base px-6 py-4 mb-4">
     <h1 class="text-2xl font-bold">Category: {category}</h1>
     <p class="text-sm text-gray-500 mt-1">Found {page.total} posts</p>
   </div>
   
-  <!-- 文章列表 -->
   <PostPage page={page} />
   
-  <!-- 分页组件 -->
   {
     page.total > page.size && (
       <Pagination
