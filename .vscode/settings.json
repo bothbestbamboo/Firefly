@@ -13,5 +13,6 @@
         },
         "editor.minimap.enabled": false
     },
-    "workbench.preferredHighContrastColorTheme": "Light Modern"
+    "workbench.preferredHighContrastColorTheme": "Light Modern",
+    "editor.wrapOnEscapedLineFeeds": false
 }

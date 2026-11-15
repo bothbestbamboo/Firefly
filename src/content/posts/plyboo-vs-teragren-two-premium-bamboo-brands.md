@@ -9,15 +9,11 @@ draft: false
 image: "../../assets/images/gallery/plyboo-vs-teragren-premium-bamboo-hero.jpg"
 ---
 
-# Plyboo vs. Teragren: The Two Premium Names, Side by Side
-
 Both brands sell strand woven bamboo at prices that start where the box store options end, and both are named in almost every serious conversation about the material. The difference is where each one came from.
 
 Plyboo grew out of architectural panels. The brand was built to supply designers and fabricators with bamboo sheet goods, and flooring came along as a natural extension of that work. Teragren grew out of flooring. The company was founded to make a residential floor that could compete with hardwood on durability rather than novelty, and panels followed later.
 
 That origin story still shapes what each brand is good at. Choose Plyboo when the project involves millwork, matching panels, or a designer who specifies by sample. Choose Teragren when the job is a floor and the questions are about wear, warranty, and indoor air quality.
-
-![Two premium strand woven bamboo planks side by side on a concrete studio surface with cut edges facing the camera](../../assets/images/gallery/plyboo-vs-teragren-premium-bamboo-hero.jpg)
 
 ## How the Two Brands Got Here
 
