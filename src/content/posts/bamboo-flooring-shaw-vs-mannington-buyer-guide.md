@@ -73,7 +73,7 @@ The flooring industry is notorious for strict warranty guidelines, and bamboo fl
 
 ### Skipping Subfloor Moisture Tests
 
-This is the most common reason bamboo warranties are voided. Before a single plank is laid down, the installer must test the subfloor for moisture. For concrete, this means conducting calcium chloride tests or in-situ relative humidity probe tests. For wood subfloors, a pin-style moisture meter must be used to ensure the subfloor is dry and within a few percentage points of the bamboo's moisture content. 
+This is the most common reason bamboo warranties are voided. Before a single plank is laid down, the installer must test the subfloor for moisture. For concrete, this means conducting calcium chloride tests or in-situ relative midity probe tests. For wood subfloors, a pin-style moisture meter must be used to ensure the subfloor is dry and within a few percentage points of the bamboo's moisture content. 
 
 If your floor fails six months down the line and you try to file a claim, the manufacturer's first question will be: "Send us the documented moisture readings from the day of installation." If you or your contractor skipped the test and have no documentation, the claim is instantly denied. 
 
