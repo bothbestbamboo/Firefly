@@ -10,7 +10,7 @@ import { defineConfig } from "astro/config";
 import expressiveCode from "astro-expressive-code";
 import icon from "astro-icon";
 import katex from "katex";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
+// 移除: import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeComponents from "rehype-components"; /* Render the custom directive content */
 import rehypeKatex from "rehype-katex";
 import "katex/dist/contrib/mhchem.mjs"; // 加载 mhchem 扩展
@@ -257,29 +257,7 @@ export default defineConfig({
 						},
 					},
 				],
-				[
-					rehypeAutolinkHeadings,
-					{
-						behavior: "append",
-						properties: {
-							className: ["anchor"],
-						},
-						content: {
-							type: "element",
-							tagName: "span",
-							properties: {
-								className: ["anchor-icon"],
-								"data-pagefind-ignore": true,
-							},
-							children: [
-								{
-									type: "text",
-									value: "#",
-								},
-							],
-						},
-					},
-				],
+				// 已移除: rehypeAutolinkHeadings 插件配置
 			],
 		}),
 	},
@@ -323,4 +301,3 @@ export default defineConfig({
 		},
 	},
 });
-
