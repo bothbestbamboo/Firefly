@@ -13,8 +13,6 @@ When you step into a flooring showroom, you are immediately bombarded with massi
 
 Buyers often assume that purchasing a bamboo floor from a massive, reputable brand guarantees a flawless experience. The reality is far more nuanced. Both Shaw and Mannington have offered various iterations of bamboo flooring over the years, testing different construction methods, core materials, and locking mechanisms. Knowing whether either brand's bamboo line is worth your investment requires looking past the glossy marketing brochures and directly into the milling quality, the core stability, and the extremely strict fine print of their warranties.
 
-![Shaw vs Mannington Bamboo Flooring](../../assets/images/gallery/shaw-vs-mannington-bamboo-hero.jpg)
-
 ## Examining Shaw Floors Bamboo
 
 Shaw Floors approaches the hard surface market with immense manufacturing power. Over the years, their bamboo strategy has frequently leaned heavily into engineered construction. Instead of offering solid bamboo planks, Shaw has often utilized a bamboo veneer layered over a high-density fiberboard (HDF) or a cross-ply plywood core.
