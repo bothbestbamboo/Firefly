@@ -1,11 +1,11 @@
 
 # Welcome to Bothbest
 
-Welcome to Bothbest, a world-class manufacturing facility and a global leader dedicated to the research, development, and large-scale production of premium bamboo products. Founded with a vision to bridge industrial excellence with ecological responsibility, Bothbest has grown into a highly trusted partner for international distributors, architects, designers, and contractors worldwide.
+Bothbest, a world-class manufacturing facility and a global leader dedicated to the research, development, and large-scale production of premium bamboo products. Founded with a vision to bridge industrial excellence with ecological responsibility, Bothbest has grown into a highly trusted partner for international distributors, architects, designers, and contractors worldwide.
 
 We specialize in engineering high-performance bamboo flooring, vertical and horizontal bamboo panels, outdoor bamboo decking, and custom bamboo industrial components. With decades of industrial expertise, cutting-edge automated infrastructure, and an unyielding commitment to precision, we transform raw, sustainable bamboo into sophisticated architectural assets that stand the test of time.
 
-!['bamboo flooring'](https://www.bambooflooringchina.com/img/UploadFiles/null-p192tir36vdbs11u31jl01r0l1d101.jpg)
+!['bamboo flooring'](../../assets/images/gallery/null-p192tir36vdbs11u31jl01r0l1d101.jpg)
 
 ### 🛠️ Our Core Expertise: Engineering the Finest Bamboo Flooring
 
@@ -18,7 +18,7 @@ Our comprehensive bamboo flooring portfolio includes:
 *   **Click System & Tongue-and-Groove (T&G) Flooring:** To facilitate seamless onsite installation, we provide precision-milled profiles. Our advanced CNC-machined profiling systems guarantee micro-metric accuracy across every tongue, groove, and interlocking click mechanism, significantly reducing installation labor and preventing gapping over long-term use.
 *   **Pre-finished Architectural Coatings:** Our flooring products are finished with multi-layer, UV-cured polyurethane coatings sourced from globally recognized brands. This ensuring superior abrasion resistance, anti-slip properties, and easy maintenance while maintaining strict compliance with international low-VOC and formaldehyde-emission standards.
 
-!['bamboo flooring'](https://www.bambooflooringchina.com/img/UploadFiles/null-p192tiqdfpf798vp1nf6f761vfq1.jpg)
+!['bamboo flooring'](../../assets/images/gallery/null-p192tiqdfpf798vp1nf6f761vfq1.jpg)
 
 ### 🏭 Manufacturing Excellence & Automated Infrastructure
 
@@ -33,7 +33,7 @@ Precision finishing is executed via our upgraded, high-speed automated CNC proce
 #### Advanced Kiln Drying & Moisture Control
 The structural stability of bamboo flooring is heavily dependent on moisture equilibrium. Bothbest operates an extensive array of fully automated, sensor-controlled drying kilns. Every batch of raw bamboo material undergoes customized thermal conditioning profiles to match the specific climatic equilibrium moisture content (EMC) of its destination market, whether it be humid coastal regions or arid inland territories.
 
-!['bamboo flooring'](https://www.bambooflooringchina.com/img/UploadFiles/null-p192tiq0goh2sgu01tnmqfbncp1.jpg)
+!['bamboo flooring'](../../assets/images/gallery/null-p192tiq0goh2sgu01tnmqfbncp1.jpg)
 
 ### 🌍 Sustainability as Our Driving Principle
 
@@ -42,7 +42,7 @@ Sustainability is not a marketing buzzword at Bothbest; it is our foundational b
 *   **Zero-Waste Manufacturing Strategy:** We practice a circular manufacturing economy. Bamboo trimmings, sawdust, and residual fiber generated during the profiling and milling processes are collected through centralized dust extraction pipelines and repurposed to fuel our thermal energy plants or compressed into industrial sub-products.
 *   **Eco-Friendly Adhesives:** We strictly utilize premium, low-emission or completely formaldehyde-free structural adhesives. Our products consistently satisfy and exceed rigid international environmental benchmarks, including European E1/E0 standards and North American CARB Phase 2 / EPA TSCA Title VI certifications, ensuring absolute safety for indoor air quality.
 
-!['bamboo flooring'](https://www.bambooflooringchina.com/img/UploadFiles/null-p192tipk50m2pkskdm0m41kkd1.jpg)
+!['bamboo flooring'](../../assets/images/gallery/null-p192tipk50m2pkskdm0m41kkd1.jpg)
 
 ### 🤝 Why Global Partners Choose Bothbest
 
@@ -52,7 +52,7 @@ Operating as a direct, large-scale manufacturing factory allows Bothbest to offe
 2.  **Rigorous Quality Assurance (QA):** Our internal quality control protocol tracks the product lifecycle from raw timber selection, strip boiling, carbonization, and kiln drying, to final pressing, profiling, and packaging. No single board leaves our facility without passing mechanical tolerance testing.
 3.  **Comprehensive OEM/ODM Capabilities:** We understand that different markets demand distinct aesthetics. Our engineering team provides robust custom development options—ranging from custom dimensions, specific gloss levels, distressed/wire-brushed textures, to tailor-made architectural staining and specialized packaging layouts.
 
-!['bamboo flooring'](https://www.bambooflooringchina.com/img/UploadFiles/null-p192tipa6imh112681v7rh4t11qm1.jpg)
+!['bamboo flooring'](../../assets/images/gallery/null-p192tipa6imh112681v7rh4t11qm1.jpg)
 
 ### 📞 Connect with Bothbest Today
 
