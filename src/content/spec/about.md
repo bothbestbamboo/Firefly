@@ -60,8 +60,8 @@ As the architectural landscape shifts towards sustainable, high-durability mater
 
 Whether you are looking to place a bulk commercial order, source reliable OEM manufacturing, or join our global network of authorized distributors, the Bothbest team is ready to provide elite technical consulting, comprehensive material samples, and optimized supply-chain logistics.
 
-*   **Corporate Headquarters & Factory:** China
-*   **Core Portfolio:** Strand Woven Bamboo Flooring, Architectural Veneers, Engineered Panels & Countertops.
+*   **Corporate Headquarters & Factory:** Anji, Zhejiang, China
+*   **Core Portfolio:** Strand Woven Bamboo Flooring, Thermally Treatment Bamboo Decking, Laminated Panels & Countertops.
 *   **Official Digital Product Center:** [www.bambooindustry.com](https://www.bambooindustry.com)
 
 Let us collaborate to build a greener, more resilient future with premium bamboo engineering. Partner with Bothbest—where sustainability meets structural perfection.
