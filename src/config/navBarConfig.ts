@@ -70,24 +70,24 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		url: "#",
 		icon: "material-symbols:link",
 		// 子菜单
-		children: [
+				children: [
 			{
 				name: "Bamboo Flooring",
 				url: "https://www.bambooindustry.com/product/flooring/",
 				external: true,
-				icon: "mdi:flooring", // 更改为地板图标
+				icon: "material-symbols:floor", // 或 "material-symbols:layers"
 			},
 			{
 				name: "Bamboo Plywood",
 				url: "https://www.bambooindustry.com/product/plywood/",
 				external: true,
-				icon: "mdi:layers-triple", // 更改为多层板图标
+				icon: "material-symbols:layers",
 			},
 			{
 				name: "Bamboo Decking",
 				url: "https://www.bambooindustry.com/product/decking/",
 				external: true,
-				icon: "mdi:deck", // 更改为户外甲板/栈道图标
+				icon: "material-symbols:deck", // 日志中显示此图标存在
 			},
 		],
 	});
