@@ -13,7 +13,7 @@ Architectural bamboo plywood has gained immense traction among builders, millwor
 
 The focus of environmental scrutiny usually falls on urea-formaldehyde, a thermosetting resin that has been a staple in the engineered wood industry for decades. Rather than relying on marketing brochures or generalized environmental claims, the most accurate way to understand the risks and physical realities of this chemical is by examining the product's official Safety Data Sheet. These federally mandated documents provide an unfiltered look at what goes into the panel, how the chemicals behave over time, and what specific precautions are necessary during fabrication.
 
-![A close-up architectural shot of stacked bamboo plywood panels in a well-lit workshop, showcasing the layered edge grain and natural wood tones, shallow depth of field, photorealistic, 8k resolution.](../../assets/images/gallery/plyboo-bamboo-panels-stack.jpg)
+![A close-up architectural shot of stacked bamboo plywood panels in a well-lit workshop](../../assets/images/gallery/plyboo-bamboo-panels-stack.jpg)
 
 ## The Role of Adhesives in Bamboo Panels
 
@@ -35,7 +35,7 @@ In Section 3, which covers composition and information on ingredients, you will 
 
 However, the presence of the resin in the composition section does not translate directly to the emission rate. The SDS lists what is physically inside the board. It does not necessarily state how much is coming out of the board. For emission rates, users must look toward the regulatory certifications referenced elsewhere in the document or on the manufacturer's technical specifications.
 
-![A person holding a printed Safety Data Sheet over a sheet of bamboo plywood, pointing at the composition and hazard identification sections with a metal pen, bright office lighting, realistic, highly detailed.](../../assets/images/gallery/reading-safety-data-sheet.jpg)
+![Safety Data Sheet of bamboo plywood](../../assets/images/gallery/reading-safety-data-sheet.jpg)
 
 ### Hazard Identification
 
@@ -57,7 +57,7 @@ To pass, standard composite panels must emit less than 0.05 parts per million of
 
 Many premium panels achieve a classification known as Ultra-Low Emitting Formaldehyde. This indicates that while formaldehyde-based resins are used, the emissions are consistently so far below the regulatory limits that the manufacturer is granted reduced testing frequencies. Seeing a ULEF designation alongside an SDS that lists urea-formaldehyde is an indicator of highly efficient curing processes.
 
-![An industrial quality control setting showing a technician testing wood panels inside an environmental emissions chamber, scientific equipment visible, clean modern manufacturing environment, 4k.](../../assets/images/gallery/emissions-chamber-testing.jpg)
+![environmental emissions chamber](../../assets/images/gallery/emissions-chamber-testing.jpg)
 
 ## Handling and Millwork Precautions
 
@@ -79,7 +79,7 @@ By the time Plyboo panels arrive at a job site, the highest period of off-gassin
 
 Proper site acclimation is crucial. Installers should unbox the panels and allow them to rest in the installation environment while the HVAC system is running. This not only allows the bamboo to reach structural equilibrium with the room's moisture content, preventing warping, but it also allows the building's ventilation system to capture and exhaust any residual off-gassing before the space is occupied.
 
-![A beautiful, modern sustainable interior design featuring smooth bamboo wall cladding and sleek cabinetry, abundant natural sunlight pouring through large windows, minimalist architectural aesthetic.](../../assets/images/gallery/modern-bamboo-interior.jpg)
+![modern sustainable interior design featuring smooth bamboo wall cladding and sleek cabinetry](../../assets/images/gallery/modern-bamboo-interior.jpg)
 
 ## Specifying the Right Panel for the Project
 
