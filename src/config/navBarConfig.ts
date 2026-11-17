@@ -75,19 +75,19 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "Bamboo Flooring",
 				url: "https://www.bambooindustry.com/product/flooring/",
 				external: true,
-				icon: "fa7-brands:github",
+				icon: "mdi:flooring", // 更改为地板图标
 			},
 			{
 				name: "Bamboo Plywood",
 				url: "https://www.bambooindustry.com/product/plywood/",
 				external: true,
-				icon: "fa7-brands:gitee",
+				icon: "mdi:layers-triple", // 更改为多层板图标
 			},
 			{
 				name: "Bamboo Decking",
 				url: "https://www.bambooindustry.com/product/decking/",
 				external: true,
-				icon: "fa7-brands:qq",
+				icon: "mdi:deck", // 更改为户外甲板/栈道图标
 			},
 		],
 	});
