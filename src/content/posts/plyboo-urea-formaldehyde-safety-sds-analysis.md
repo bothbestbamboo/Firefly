@@ -13,7 +13,7 @@ Architectural bamboo plywood has gained immense traction among builders, millwor
 
 The focus of environmental scrutiny usually falls on urea-formaldehyde, a thermosetting resin that has been a staple in the engineered wood industry for decades. Rather than relying on marketing brochures or generalized environmental claims, the most accurate way to understand the risks and physical realities of this chemical is by examining the product's official Safety Data Sheet. These federally mandated documents provide an unfiltered look at what goes into the panel, how the chemicals behave over time, and what specific precautions are necessary during fabrication.
 
-![A close-up architectural shot of stacked bamboo plywood panels in a well-lit workshop](../../assets/images/gallery/plyboo-bamboo-panels-stack.jpg)
+![stacked bamboo plywood panels in the workshop](../../assets/images/gallery/plyboo-bamboo-panels-stack.jpg)
 
 ## The Role of Adhesives in Bamboo Panels
 
