@@ -28,7 +28,7 @@ export const friendsConfig: FriendLink[] = [
 			"/gallery/flooring.jpg",
 		desc: "Bamboo flooring has a very wide varieties, including solid, engineered, strand woven, click lock, click strand, heating, hand scraped, brushed, distressed, industrial parquet and flooring accessories.",
 		siteurl: "https://www.bambooindustry.com/product/flooring/",
-		tags: ["Blog"],
+		tags: ["Flooring"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
@@ -37,7 +37,7 @@ export const friendsConfig: FriendLink[] = [
 		imgurl: "/gallery/plywood.jpg",
 		desc: "Bamboo means natural. Each plywood then can slightly differ both in its structure and colour. It consists of numerous slats compressed together - each of the slats of thousands of strands. That's why it has such a non-uniform, organic structure - and this is what makes the material exceptional.",
 		siteurl: "https://www.bambooindustry.com/product/plywood/",
-		tags: ["Docs"],
+		tags: ["Plywood"],
 		weight: 9,
 		enabled: true,
 	},
@@ -46,7 +46,7 @@ export const friendsConfig: FriendLink[] = [
 		imgurl: "/gallery/decking.jpg",
 		desc: "Bamboo decking is an eco-friendly and environmental deck. It is an ideal alternative for traditional hardwood decking and WPC decking. Bamboo decking brings you a new idea to make real green choice, merging functionality with aesthetics for a spectacular and durable outdoor space.",
 		siteurl: "https://www.bambooindustry.com/product/decking/",
-		tags: ["Framework"],
+		tags: ["Decking"],
 		weight: 8,
 		enabled: true,
 	},
