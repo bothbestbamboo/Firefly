@@ -33,7 +33,6 @@ const description = i18n(I18nKey.guestbookDescription);
 
 // 业务数据（请根据实际情况修改）
 const BUSINESS = {
-	// 👇 修改点1：邮箱改成了 info@
 	email: "info@allbambooflooring.com", 
 	address: {
 		lineOne: "Bamboo Industry Zone",
@@ -148,7 +147,6 @@ const BUSINESS = {
         </div>
 
         <div class="cs-location-content">
-          <!-- 仅保留地图，并已居中放大 -->
           <div class="cs-map-wrapper">
             <a href={factoryMapImage.src} target="_blank" rel="noopener noreferrer" class="cs-map-link" aria-label="View full size map image">
               <Picture
@@ -300,7 +298,7 @@ const BUSINESS = {
 				border-radius: 0.5rem;
 				display: flex;
 				flex-direction: column;
-				justify-content: center; /* 👇 修改点：由 flex-end 改为 center 使得联系方式居中 */
+				justify-content: center; 
 				align-items: flex-start;
 				position: relative;
 				overflow: hidden;
@@ -447,13 +445,13 @@ const BUSINESS = {
 		#cs-location .cs-location-content {
 			display: flex;
 			flex-direction: column;
-			align-items: center; /* 👇 修改点：居中对齐 */
+			align-items: center;
 			gap: 2rem;
 		}
 
 		#cs-location .cs-map-wrapper { 
 			width: 100%; 
-			max-width: 64rem; /* 👇 修改点：限制最大宽度并居中，使其单独放大 */
+			max-width: 64rem;
 			margin: 0 auto;
 		}
 
@@ -532,13 +530,13 @@ const BUSINESS = {
 	/* Tablet & Desktop - 1024px 以上 */
 	@media only screen and (min-width: 64em) {
 		#cs-location .cs-location-content {
-			flex-direction: column; /* 👇 修改点：只保留地图，采用垂直居中 */
+			flex-direction: column; 
 			align-items: center;
 		}
 
 		#cs-location .cs-map-wrapper {
 			width: 100%;
-			max-width: 75rem; /* 👇 修改点：地图占据更大空间 */
+			max-width: 75rem;
 			flex-shrink: 0;
 		}
 
