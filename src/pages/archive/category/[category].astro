@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import MainGridLayout from '@layouts/MainGridLayout.astro';
+import PostCard from '@/components/layout/PostCard.astro'; 
+import { getPostUrlBySlug } from '@/utils/url-utils';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('posts'); 
+  
+  const allCategories = [...new Set(allPosts.flatMap(post => 
+    post.data.category ? (Array.isArray(post.data.category) ? post.data.category : [post.data.category]) : []
+  ))];
+
+  return allCategories.map((category) => {
+    const slug = category.replace(/\s+/g, "-").toLowerCase();
+    return {
+      params: { category: slug },
+      props: { originalCategory: category },
+    };
+  });
+}
+
+const { originalCategory } = Astro.props;
+
+const allPosts = await getCollection('posts'); 
+const filteredPosts = allPosts.filter(post => {
+  if (!post.data.category) return false;
+  const categories = Array.isArray(post.data.category) ? post.data.category : [post.data.category];
+  return categories.includes(originalCategory);
+});
+---
+
+<!-- 这里将顶部 Banner 的标题改为英文 -->
+<MainGridLayout title={`Category: ${originalCategory}`}>
+  <div class="container mx-auto px-4 py-8">
+    <div class="mb-8 p-6 rounded-2xl bg-white/70 dark:bg-black/50 backdrop-blur-md">
+      <!-- 将 H1 里的中文改为英文 -->
+      <h1 class="text-2xl font-bold text-[--primary]">Category: {originalCategory}</h1>
+      <!-- 将文章数量提示改为英文 -->
+      <p class="text-sm mt-2 opacity-70">Found {filteredPosts.length} posts</p>
+    </div>
+    
+    <div class="grid grid-cols-1 gap-6">
+      {filteredPosts.map((post) => (
+        <PostCard
+          entry={post}
+          title={post.data.title || "Untitled"}
+          url={getPostUrlBySlug(post.id)}
+          published={post.data.published}
+          updated={post.data.updated}
+          tags={post.data.tags || []}
+          category={post.data.category || null}
+          image={post.data.image || ""}
+          description={post.data.description || ""}
+          draft={post.data.draft || false}
+          pinned={post.data.pinned}
+          password={post.data.password}
+          style=""
+        />
+      ))}
+    </div>
+  </div>
+</MainGridLayout>

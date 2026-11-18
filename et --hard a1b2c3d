@@ -1,0 +1,1156 @@
+[33mae834f2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m creat new post
+[33mfc69e43[m creat new post
+[33me5ac8d5[m Synced by Front Matter
+[33m52c00fa[m Synced by Front Matter
+[33m5a38e4a[m creat new post
+[33mb04b860[m creat new post
+[33m8db029d[m creat new post
+[33m693587f[m creat new post
+[33m0e9b8d7[m creat new post
+[33mdcbd95e[m Synced by Front Matter
+[33m042def7[m creat new post
+[33m6694bfb[m creat new post
+[33mdd03877[m creat new post
+[33m5e4ac4d[m creat new post
+[33m73b2ba4[m creat new post
+[33m2a2daaa[m creat new post
+[33m859f3ac[m creat new post
+[33m9b5f234[m creat new post
+[33mc5e98e6[m creat new post
+[33me3083d5[m creat new post
+[33m527f31a[m Synced by Front Matter
+[33mc750a8c[m Synced by Front Matter
+[33ma907e32[m Synced by Front Matter
+[33m94e9ab8[m Synced by Front Matter
+[33m14b32fd[m Synced by Front Matter
+[33mad94d2f[m Synced by Front Matter
+[33m2556215[m Synced by Front Matter
+[33m76a3575[m creat new post
+[33m5be4211[m creat new post
+[33m5195d9d[m update footer
+[33m715ad05[m update footer
+[33meacce11[m update footer
+[33m8e3ad6d[m update footer
+[33mc23e290[m update footer
+[33m8951608[m update footer
+[33m0e09e42[m update footer
+[33md12d858[m update footer
+[33m1acdac5[m Update site configuration for new site details
+[33md1ee5ce[m chore: 更新版本号至6.13.1
+[33m4c8e562[m update: Astro v7.0.2
+[33m026cb61[m fix: 修复 Bilibili 封面图 403 防盗链问题
+[33m9514ad3[m fix: 移动端动漫弹窗海报固定高度，避免遮挡详情内容
+[33m7deb27f[m feat: 使用 Astro Font API 重构字体管理 (#442)
+[33m377e8d2[m feat: 追番页全面优化筛选分类、响应式布局和数据获取
+[33mab08cd8[m fix: 修复Bilibili追番数据获取不完整，增加数据获取时间显示
+[33m35cd469[m fix: 移动端导航栏去掉底部圆角
+[33m9152417[m chore: 更新版本号至6.13.0
+[33m122e7c5[m update: Astro V7 (#440)
+[33m824fb39[m refactor: 壁纸轮播配置从banner迁移到common
+[33md972661[m fix: 修复导航栏设置面板轮播开关失效和全屏模式水波纹被暗层遮挡
+[33mfece2ec[m feat: 横幅轮播支持多种过渡效果选择
+[33m5fdb113[m fix: 修复追番详情弹窗定位问题，使用use:portal挂载到body
+[33ma53fa04[m feat: 新增支持 TMDB 和 Bilibili 集成的动漫追更页面 (#438)
+[33m2a645f1[m fix: 适配分页组件透明模式、卡片边框和亮暗模式
+[33m27f085e[m refactor: 将 showOnNonPostPage 重命名为 hideOnNonPostPage，true 表示隐藏
+[33m53fad2d[m fix: 修复 Profile 组件 showOnPostPage/showOnNonPostPage 不生效的问题 (#437)
+[33m453e328[m feat: 更新 Twikoo JS 文件地址至 1.7.13 版本
+[33m0492273[m build(deps): bump the patch-updates group across 1 directory with 6 updates (#431)
+[33m0d3a451[m build(deps): bump the minor-updates group across 1 directory with 2 updates (#422)
+[33mc5ff5f3[m fix: 修复可能出现加密相册页面样式未加载情况 (#426)
+[33m5934dec[m feat: enhance font management and subsetting capabilities
+[33m771b73b[m feat: 为分类名称添加悬停提示
+[33m3aa1d61[m fix: 修复导航栏背景视频播放图标状态不同步的问题
+[33mc4f18de[m chore: 更新版本号至6.12.3
+[33m1cb4ff7[m feat: 优化LQIP忽略content目录
+[33mffea25c[m feat: 优化 mermaid、plantuml 插件的触控事件处理
+[33m533b799[m [Feature]: 新增视频播放功能  #417 (#418)
+[33m1a00bd3[m feat: 添加移动端底部站点信息组件专属配置以支持未识别的构建平台回退显示文本 #419
+[33m050ef40[m feat: SiteInfo.astro
+[33m34fb242[m chore: 更新版本号至 6.12.2
+[33m31c8e49[m feat: 添加 rehype-callouts Docusaurus 主题支持
+[33m97ea263[m build(deps): bump the minor-updates group across 1 directory with 4 updates (#413)
+[33m3ff3575[m feat: 更新 Twikoo JS 文件地址至 1.7.12 版本修复部分问题
+[33md2dc4b7[m feat: 修改导航栏的菜单选项逻辑为自动判断 (#414)
+[33md90faf0[m refactor: 更新 GitHub Pages 部署工作流程，优化权限设置和构建步骤 #411
+[33mfd14f22[m refactor: update Icon component usage to include 'is:inline' prop for consistent styling across various components
+[33m88e9f92[m feat: 将“赞助”相关术语更改为“打赏”
+[33m1ebe90e[m feat(ArchivePanel): 支持控制归档页自动折叠默认行为 (#404)
+[33mc96161e[m chore: 更新版本号至 6.12.1
+[33m8f9b45b[m feat: 微调分类和标签页面样式
+[33m3240a76[m feat: 更新分类和标签页面样式
+[33mb501167[m fix: 调整站点信息组件中的文本大小
+[33mec284dc[m feat: 添加 ci-info 依赖并优化构建平台检测逻辑，支持自定义未识别构建平台文本
+[33md726a94[m build(deps): bump the patch-updates group with 8 updates (#401)
+[33mf3a20df[m fix: 调整站点域名展示逻辑，改为可折叠项目并全宽显示
+[33m68aef80[m feat: 更新构建平台检测逻辑
+[33m29c9fad[m fix: 默认关闭广告栏组件
+[33m3fd2b77[m fix: 移除未使用的 getDefaultBackground 导入和相关代码
+[33mb435316[m fix: 移除部分无效构建平台检测逻辑
+[33m080b815[m fix: 生产构建中保留 console.warn / console.error (#399)
+[33mb69ddcc[m chore: 更新版本号至 6.12.0
+[33m9258b02[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m831041e[m build(deps): bump the minor-updates group across 1 directory with 8 updates (#395)
+[33m0dae061[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33mc05d618[m feat: 「最后活动」改为综合 published 与 updated 的最大值 (#398)
+[33m22148e6[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m85a7e65[m feat: 更新README
+[33mfa9c598[m refactor: remove dead banner fallback code in Layout.astro (#397)
+[33m41d2dbd[m feat: 重构站点配置
+[33mcc3797d[m refactor: 拆分配置类型文件
+[33m2c2f283[m feat: 解耦Analytics配置
+[33m73731d2[m feat: 优化导航栏
+[33mf1efd78[m refactor: 移除 LinkPreset 相关代码，简化导航栏链接配置
+[33m6f293ae[m feat: 更新组件图标配置，调整侧边栏折叠阈值及站点语言设置
+[33m6ca032e[m refactor: 统一侧边栏组件配置传递方式
+[33mb87d5f3[m Merge branch 'feat/site-info'
+[33m1a0eb98[m feat: 重构广告组件，支持响应式配置并移除旧广告配置
+[33m92832c6[m Merge branch 'feat/ad-component'
+[33m72cad61[m fix(BangumiGrid): 修复动态模式下的加载状态管理
+[33m851176b[m feat: 添加对 Python-Markdown 风格的 admonition 语法支持 #192
+[33me0c522b[m feat: 添加站点信息组件及相关国际化支持
+[33m33bf871[m feat: 重写广告组件
+[33m365b8b9[m feat: 添加 showTitle 属性以控制侧边栏小组件标题显示
+[33m7906ec4[m fix(ArchivePanel): 修复默认折叠页面按钮显示异常的问题 (#391)
+[33mae538b4[m chore: 更新版本号至 6.11.0
+[33m2c2df22[m feat(MusicPlayer): 增强播放列表交互体验
+[33mb2747a3[m fix(lqip-utils): 修复 LQIP 渐变函数中的 compact 检查逻辑
+[33m4c9436d[m feat: 更新依赖
+[33m2ea2e43[m Merge remote-tracking branch 'origin/dependabot-npm_and_yarn-patch-updates-f48469e709'
+[33me5912b7[m fix(LightDarkSwitch): 修复切换颜色模式后导航栏图标未刷新的问题 (#388)
+[33m7c8f353[m fix(MusicPlayer): 修复打开播放列表时未刷新歌词开启状态的问题 (#389)
+[33m4770911[m feat(bangumi): implement dynamic and static data fetching modes
+[33m8efef78[m feat: 切换 Bangumi API 为镜像站
+[33m3a7efba[m fix: 修复加密相册在解密后LQIP没有淡人原图
+[33m45ccc35[m feat: 调整热力图组件位置
+[33m78195f5[m feat: 优化图片轮播过渡效果，添加 LQIP 支持
+[33ma09985c[m build(deps): bump the patch-updates group across 1 directory with 7 updates
+[33m6e32504[m feat: 修改 Cloudflare Workers 适配器配置
+[33m2ec634b[m feat: 添加 @napi-rs/wasm-runtime 依赖
+[33mb4e6d44[m feat: 支持 Cloudflare Workers 部署
+[33m8c710d1[m chore: 更新版本号至6.10.9
+[33mf8aa0bd[m fix: 更新图标组件的属性以支持内联样式
+[33me02e8f6[m fix: 调整日历组件按钮间距及热力图容器样式
+[33mc9cf7c4[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33md7fb6a8[m feat: 新增日历组件热力图功能及国际化支持
+[33m606a432[m fix: 修复全部标签页面标签未适配深色模式的问题 (#381)
+[33m4d1155f[m feat: 更新分类图标
+[33m4f7c7bc[m chore: 更新版本号至6.10.8
+[33mcc0b9cf[m feat: 更新横幅标题交互效果
+[33m58b49fd[m feat: 优化分类栏样式，新增"更多"按钮及其交互效果
+[33ma38d0be[m feat: 新增独立分类和标签页面，优化归档页交互
+[33mfead4c3[m fix: 修复文章封面图被强制裁切 (#376)
+[33ma115a29[m feat: 添加对@astrojs/markdown-satteri和satteri的依赖
+[33m988acb9[m Update README
+[33m4c7eccc[m fix: 修复home icon颜色显示异常 (#374)
+[33m49156d5[m feat: 优化LQIP，支持更多页面图片
+[33m6bb79f7[m feat: 更新依赖
+[33m374b8ce[m chore: 更新版本号至6.10.7
+[33m40eb959[m fix: 修复Live2d看板娘自定义提示语失效
+[33md4aeb39[m feat: 优化LQIP生成脚本，预防src和public重叠
+[33ma38f8e4[m feat: 优化LQIP生成脚本，支持增量处理与自动清理
+[33mcc93584[m chore: 清理未使用的依赖
+[33m0fb8f65[m chore: 更新版本号至6.10.6
+[33mb5b26bc[m feat: 添加LQIP渐变占位功能及相关脚本支持
+[33m6cc3604[m fix: 修正tsconfig.json中的路径前缀
+[33m17c0835[m feat: 优化音乐播放器 #370
+[33ma4965d9[m feat: 添加Bangumi数据获取失败时跳过处理以及错误提示
+[33macdadc6[m feat: 添加相册搜索功能及无结果提示
+[33m81bdbf6[m feat: 添加搜索友链功能及无结果提示
+[33m294e2e5[m build(deps): bump the patch-updates group across 1 directory with 8 updates (#366)
+[33m3bf2caa[m chore(gitattributes): 统一行尾序列 (#367)
+[33mf5544c4[m feat: sponsor avatar (#349)
+[33m1343476[m chore: 修改关于我页面预设信息
+[33m008c9e5[m fix: 修正Umami会话回放配置中的拼写错误
+[33mf711cb1[m feat: 添加Umami会话回放脚本支持 #363
+[33mb653af4[m fix: 修复Live2D看板娘模型位置偏移无效、模型无法使用外部直连 #357
+[33m355326f[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33mf70023d[m fix: 修复部分配置下, 移动端横幅和文章列表间距过大
+[33m7c687a9[m build(deps): bump the minor-updates group across 1 directory with 5 updates (#351)
+[33m60a2bc2[m feat: 优化全屏壁纸模式下的滚动行为处理
+[33m73b7c19[m build(deps): bump the patch-updates group with 6 updates (#350)
+[33mbe4a1f0[m fix: 修复无法正常渲染图标 material-symbols:chevron-right-rounded 的问题
+[33m491f932[m chore: 更新版本号至6.10.5
+[33mb150c7a[m feat: update Twikoo configuration to support custom JS and CSS URLs
+[33m067ebe0[m feat: 添加无相关文章和无随机文章的国际化支持
+[33m5de6228[m fix: 修复非 sticky 导航栏在全屏壁纸顶部出现的空白问题
+[33m7de01fe[m fix: 修复 l2d-widget 气泡样式问题
+[33m49328f8[m feat: 更新 Live2D 看板娘配置，支持更多模型属性和提示气泡功能
+[33m4545c03[m chore: 默认禁用 Live2D 看板娘功能
+[33m84d9026[m feat: 添加 l2d-widget 依赖
+[33mec69460[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m0c0f58f[m build(deps): bump the patch-updates group across 1 directory with 10 updates (#342)
+[33m44fc7c4[m feat: 使用 l2d-widget 替换自定义 Live2D 实现
+[33md479a05[m feat: 添加相册加密功能和相册支持url图片
+[33mccc8239[m fix: 删除不再需要的文件
+[33m685b894[m fix: 优化切换全屏壁纸时的内容布局定位
+[33md97a05b[m feat: 在切换壁纸模式时自动滚动到页面顶部
+[33mfafe77b[m chore: 更新版本号至6.10.3
+[33m1ba8d39[m fix: 调整覆盖模式下的主内容位置和样式
+[33m437230f[m chore: biome格式化代码
+[33mbf02143[m refactor: 优化壁纸模式按钮布局，调整样式以提升用户体验
+[33m94e9431[m feat: 添加樱花特效设置，允许用户在设置中启用或禁用樱花特效
+[33m921528c[m refactor: 重命名樱花特效配置为动画特效配置，并集中管理所有动画特效
+[33m4cdb15d[m fix: 增加横幅标题隐藏时的 CSS 选择器特异性，以覆盖全屏和叠加模式
+[33m87b721c[m fix: 优化内容定位过程中的 CSS 过渡动画处理，防止不必要的动画触发
+[33m3bd88fa[m fix: 优化全屏模式切换时的动画处理，防止快速切换导致的竞态问题
+[33m928491c[m fix: 优化壁纸模式切换时的动画支持
+[33md471261[m refactor: 将横幅设置相关的国际化键更改为壁纸设置
+[33ma3d56ac[m chore: biome格式化代码
+[33m6c2bb7d[m feat: 优化全屏模式与横幅之间的内容切换动画
+[33m5e3c7e8[m fix: 修复部分布局异常
+[33m5a70e1e[m fix: 优化水波纹高度
+[33m20101ef[m fix: 调整全屏壁纸主内容的上边距至1rem
+[33m8c3a04c[m fix: 清除全屏模式残留的内联样式
+[33m2e540b4[m chore: 更新版本号至6.10.2
+[33m498d96d[m chore: biome格式化代码
+[33md801c91[m feat: 优化浮动目录和面板样式
+[33mb5ea50e[m fix: 修复设置面板在不同壁纸模式下出现的偏移
+[33ma617c11[m fix: 修复横幅壁纸模式下的时候页面切换的移除抖动
+[33m87f499f[m fix: 修复横幅壁纸模式下，主内容区被异常顶上去
+[33mfa4a286[m chore: 更新版本号至 6.10.1
+[33md9aa603[m build(deps): bump astro from 6.1.9 to 6.3.1 (#325)
+[33me1106ff[m feat: 添加渐变过渡效果，允许用户通过控制面板切换
+[33m9737229[m feat: 移除滚动指示器的首页限制，使其在所有页面显示
+[33m4306264[m fix: 修复全屏壁纸模式初始加载时主内容闪烁问题
+[33m4443a1f[m fix: 调整全屏壁纸模式下的滚动指示器位置，提升可见性；
+[33m2a7d525[m fix: 调整全屏壁纸模式下的滚动指示器位置，提升可见性
+[33m18c0720[m refactor: 移除未函数中的未使用参数
+[33mb2a1843[m feat: 优化全屏壁纸模式下的内容布局，调整移动端样式
+[33m4ee0b1a[m refactor: 移除壁纸模式中的作者文本配置和相关逻辑，优化代码结构
+[33me21b082[m feat: 优化壁纸模式切换逻辑，增强移动端体验
+[33m4dddaff[m chore: 更新版本号至 6.10.0
+[33m74dc9f0[m build(deps): bump the patch-updates group across 1 directory with 7 updates (#322)
+[33m19224fb[m feat: 增加全屏壁纸模式 (#323)
+[33m678f25d[m fix: 修复文章内锚点被固定导航栏遮挡 #315
+[33m41f38f0[m fix: 增加开发环境下的事件监听器最大数量
+[33mb8760b5[m style(markdown): 添加滚动边距以保持哈希锚导航在固定导航栏下可见 #312
+[33m9456835[m build(deps): bump the patch-updates group with 4 updates (#310)
+[33m4dd6533[m build(deps): bump the patch-updates group with 2 updates (#308)
+[33m7081c97[m chore: 更新版本号至 6.9.4
+[33m7ea7658[m style(music-player): normalize tailwind var classes
+[33mc6e85ae[m feat(plantuml): 添加 PlantUML 图表示例文章
+[33m67945fd[m feat(markdown): support plantuml (#304)
+[33m639e1cc[m build(deps): bump the patch-updates group across 1 directory with 6 updates (#307)
+[33m5c5a931[m feat: 默认关闭横幅轮播
+[33mc3de67b[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m86ee6a8[m feat(widget-layout): add useExpandedButtonSpacing prop and update button states for expanded/collapsed behavior feat(i18n): add translations for "collapse" in multiple languages
+[33m5a75705[m  fix(banner): prevent title overflow on mobile with responsive font-size (#302)
+[33meb0c05e[m fix(markdown): add overflow-wrap to prevent mobile link overflow (#300)
+[33mef43aa1[m build(deps): bump overlayscrollbars from 2.14.0 to 2.15.1 (#299)
+[33m3b4d672[m build(deps): bump @iconify-json/material-symbols (#296)
+[33m5621b62[m build(deps): bump svelte from 5.53.11 to 5.55.4 (#298)
+[33m7257686[m build(deps): bump pagefind from 1.4.0 to 1.5.2 (#297)
+[33m42b21ab[m fix: 优化跳过锚点链接处理的条件判断
+[33ma7a7ac0[m fix: 将移动端导航栏图标组件的类属性更新为内联样式
+[33m9c19406[m chore: 更新版本号至6.9.3
+[33mdf29222[m feat(category-bar): add deferred scrolling behavior for mobile and banner mode
+[33m75fe91f[m build(deps): bump the patch-updates group across 1 directory with 4 updates (#295)
+[33m686702a[m build(deps): bump satori from 0.19.2 to 0.26.0 (#272)
+[33me5ed37a[m build(deps-dev): bump tailwindcss from 4.1.18 to 4.2.2 (#262)
+[33m30b6747[m build(deps-dev): bump @tailwindcss/vite from 4.1.18 to 4.2.2 (#261)
+[33m3e0c419[m build(deps): bump node-html-parser from 7.0.2 to 7.1.0 (#252)
+[33mb797052[m build(deps): bump the patch-updates group across 1 directory with 5 updates (#291)
+[33m83c73d0[m chore: 更新版本号至6.9.2
+[33m101bebe[m fix: 修复Spine看板娘部分问题 #292
+[33m49f52c5[m fix: 将图标组件的类属性更新为内联样式以修复切换页面导致导航栏图标消失 #290
+[33mdefb155[m fix: 修复特定配置情况下壁纸模式在前台切换后侧边栏透明状态异常
+[33m2ae55c4[m :bug: feat(license): url overflow (#293)
+[33m22643c7[m chore: 更新版本号至6.9.1
+[33mb5142fa[m fix: 修复文章详情页分类轻高亮不自动滚动
+[33m5ff3831[m feat: 优化透明设置滑轨
+[33ma7a99af[m fix: 修复全屏透明模式壁纸出现不正常的轮播
+[33m2fac820[m chore: 更新版本号至6.9.0
+[33m31a9ad4[m feat: 修改横幅导航栏透明模式默认为半透明
+[33mea03297[m fix: 修复代码块渲染 ANSI 转义序列时无法渲染背景色 #282
+[33ma4ceaf6[m fix: 切换页面导致自定义的卡片透明度失效 #288
+[33mc28b840[m fix: 修复相册页链接未处理 base 路 #281
+[33mde80fd9[m fix: 使用可选链操作符优化配置检查
+[33m8ad57da[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m715184b[m :bug: fix(layout): fix table scroll (#287)
+[33m9311127[m :bug: fix(bangumi): fix mobile overflow for bangumi tab navigation (#286)
+[33md3cdf5b[m feat(analytics): 为 Umami Analytics 添加出站点击追踪、性能、回放功能 (#283)
+[33mee39e72[m build(deps): bump the patch-updates group across 1 directory with 8 updates (#279)
+[33m7a27950[m feat: 优化CategoryBar
+[33mcb8a039[m chore: 更新版本号至6.8.11
+[33mb7b0a83[m feat: 增强ArchivePanel
+[33m135e274[m fix: 优化CategoryBar在Swup导航中的显示逻辑
+[33m260f26b[m fix: 修复快捷分类导航在特定场景下Swup切换后不显示的问题
+[33m682e160[m fix: 改善画廊和番剧部分响应式
+[33m40b2257[m fix: 修复日历当天日期在最后一行时底部边框被裁切的问题 (#278)
+[33mdf0b2a4[m chore: 更新版本号至6.8.10
+[33m9b4110b[m feat: 优化分类导航渲染逻辑，仅在首页、首页分页和归档页进行服务端渲染 (#277)
+[33m83dca90[m fix: 修复文章详情页不显示标签
+[33mf5d4afc[m fix: 距今修改時間 將考慮距離當下時間，而非距離編譯時間 (#275)
+[33m13a4278[m chore: 更新版本号至6.8.9
+[33mcd29f73[m feat: 修改代码块折叠配置的国际化文本
+[33m7566c0c[m feat: 优化分类快捷导航
+[33m1b484dd[m chore: 更新版本号至6.8.8
+[33m7753402[m feat: 优化导航栏
+[33m062dc05[m feat: 添加文章简介行数配置
+[33mb790291[m chore: 更新版本号至6.8.7
+[33mb374b5b[m fix: 修复横幅轮播一个小问题
+[33m9b3de30[m chore: 更新版本号至6.8.6
+[33m7f1bfd2[m feat: 添加横幅轮播功能及相关设置
+[33meb837e8[m feat: 增加文章列表标签开关，优化布局
+[33mf68c1d5[m feat: 调整标题的字体大小
+[33m5200e71[m chore: 更新版本号至6.8.5
+[33m7796dca[m refactor: 优化waves
+[33m82c4414[m feat: 优化waves
+[33m98e90da[m fix: 优化页面切换期间的滚动处理，避免闪烁问题
+[33m398c7a3[m fix: 修复在特定场景下导致导航栏变透明
+[33m9538a80[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m8220fd6[m feat: 优化页面滚动逻辑，移动端不使用平滑滚动，避免闪烁问题
+[33m34a0d82[m build(deps): bump the patch-updates group with 4 updates (#260)
+[33m57cab45[m  feat(bangumi): 支持通过 hash 定位 Bangumi Tab (#268)
+[33m64275be[m chore: 规范文件名
+[33mc99fb87[m chore: 更新版本号至6.8.4
+[33m07a50c5[m feat: 优化网格模式的摘要行数
+[33m17ddbbe[m feat: 调整描述文本的行数限制，优化列表和网格模式下的显示效果
+[33mf5045d9[m feat: 更新版本号至6.8.3，并优化移动端列表和网格模式下的样式
+[33m098a497[m feat: 调整移动端列表模式下的按钮显示逻辑
+[33me4bb82f[m chore: 更新版本号至6.8.2
+[33m0eb5457[m feat: 更新分类栏逻辑以支持首页分页显示
+[33m1419243[m feat: 更新部分信息
+[33m6c40725[m feat: 优化移动端布局和布局切换逻辑
+[33m36848fd[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m8296ebb[m feat: 更新Twikoo至1.7.4
+[33m1cf9c05[m build(deps): bump the patch-updates group across 1 directory with 7 updates (#259)
+[33m57b3e07[m chore: 更新版本号至 6.8.1
+[33mb1b3d38[m fix: 默认关闭 Rust 编译器配置以防止部分平台构建失败
+[33m4461e61[m feat: 将 Node.js 版本更新至 22
+[33m390a03a[m feat: upgrade to astro v6 (#256)
+[33m602fcaf[m fix: 移除搜索结果摘要的标签
+[33m835803c[m chore: 更新版本号至 6.7.16
+[33ma0c4adf[m Update README
+[33m4580772[m feat(sponsor): 赞助页面增加评论系统及开关
+[33m3250961[m feat(friends): 添加友链页面开关及评论功能开关
+[33m1608045[m feat: 优化响应式布局
+[33m41f3cba[m chore: 更新版本号至 6.7.15
+[33m5e0dcb0[m feat(sidebar): 优化侧边栏
+[33m65fec59[m feat(navbar): 添加导航栏固定在顶部始终可见功能及相关样式调整
+[33m51ff195[m chore: 更新版本号至 6.7.14
+[33md6fb994[m fix: 修复 La51Analytics 组件中的匿名函数定义
+[33mcdbdcac[m feat(analytics): 添加 Umami 统计配置和组件支持
+[33m5eba488[m feat: 更新51la统计配置结构
+[33m2d21e64[m feat(analytics): Add 51LA Analytics Component Support (#249)
+[33m71c1120[m fix: 修复 semifull 模式在跨页回顶时导航栏闪烁
+[33m8b23a4c[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33me62c299[m update: 将版本号更新至6.7.13
+[33mebccf67[m style: 目录相关样式优化
+[33m0590a7e[m style: 去掉侧边栏 sticky 偏移相关的过渡效果
+[33m9a3ff76[m feat: 优化动态侧边栏
+[33m6b91041[m Merge pull request #250 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-b181475112
+[33m23ae192[m build(deps): bump the patch-updates group across 1 directory with 13 updates
+[33m57e4a27[m update: 将版本号更新至6.7.12
+[33mfa39249[m fix: 保持twikoo管理面板为原生默认样式
+[33m65399f2[m update: 更新版本至6.7.11
+[33m9b0ba82[m feat: 更新Twikoo更新至1.7.3
+[33m202db22[m feat: 优化表格，适配透明模式
+[33m2e1bd62[m feat: 表格横向拖拽滚动功能及相关样式
+[33m20f613b[m refactor: 移除首页文章字数元数据
+[33ma96500c[m fix: 优化评论按钮在无评论区时的显示逻辑
+[33m3778d61[m update: 版本号更新至6.7.10
+[33m04b611f[m feat: 新增透明模式设置面板, 完善透明模式显示设置与交互体验
+[33m64c91ba[m feat: 新增菜单对齐配置并优化布局交互
+[33mcd992f2[m update: 版本号更新至6.7.9
+[33m9e56ee9[m fix: 日历小部件无文章时隐藏列表区域，避免底部留白
+[33md579e02[m style: 优化动画过渡效果的位移参数
+[33m174c693[m update: 更新版本号至6.7.8
+[33mf70b1f4[m feat: 添加快速跳转至评论区按钮
+[33me0d21d6[m biome format code
+[33m5e51fba[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33mb2c0fa1[m feat: 添加卡片风格跟随主题色相配置
+[33m229f133[m Merge pull request #242 from xyamzwqwq/feat/waline-config-emoji
+[33mcfb2e38[m feat: add emoji configuration to waline comment system
+[33mc2bb80c[m style: 优化bangumi封面标签显示数量
+[33mc0b6ed7[m fix: 修复bangumi会一次性加载全部封面
+[33m489459a[m build: 优化构建配置
+[33m7e2c6e6[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m015d7bf[m feat: 添加语言徽章插件配置开关
+[33m26d3080[m Merge pull request #239 from jacksen168sub/feat/bangumi-category-sorting
+[33mfa0d67a[m feat(config): 添加Bangumi条目类型排序功能 feat(config): Add Bangumi Entry Type Sorting Feature
+[33m95de8b4[m biome format code
+[33me8cf023[m update: 将版本号更新至 6.7.7
+[33m98054b7[m feat: 添加随机排序功能至友链配置
+[33m28635a9[m feat: 添加响应式图片画廊功能，支持使用 [grid] 标签展示多张图片并排，#237
+[33m26735cd[m fix: 避免页面存在多个h1
+[33m61e7e8d[m fix: 修复移动端无法关闭广告
+[33m626aacb[m update: 将版本号更新至 6.7.6
+[33mda6e5f7[m feat: 更新文章导航链接，添加首页链接作为后备
+[33m7faef0a[m feat: 更新推荐文章图标为推荐符号
+[33mc4850fc[m feat: 添加文章推荐组件（相关文章 +随机文章）
+[33m5885581[m chore: 恢复默认侧边栏位置配置为双侧边栏
+[33m934a89b[m update: 将版本号更新至 6.7.5
+[33m5310696[m feat: 为加密文章添加标识
+[33me0b4f37[m style: 更新 FloatingButton 组件，使用 card-base 统一全屏透明模式下的外观
+[33mef67dfa[m style: 更新赞助页面的样式，使用 card-base 统一全屏透明模式下的外观
+[33md8c57e2[m update: 更新版本号至 6.7.4
+[33m8484aee[m fix: 修复 mermaid-render-script.js 的 biome lint 问题
+[33mf2a922c[m fix: 修复部分场景切换页面无法平滑滚动回顶部
+[33maeaf77e[m chore: 删除多余的加密示例文章
+[33m823529a[m feat: 添加 Mermaid 图表的 pan-zoom 控制栏和全屏功能
+[33m3e43ac3[m fix: 加密文章解密后重新绑定灯箱
+[33m0e38edb[m update: 更新版本号至6.7.3
+[33m1341878[m Merge pull request #234 from jacksen168sub/feat/image-referrer-policy
+[33m564f8de[m fix: 修复防盗链处理功能部分问题 - 提取 shouldAddNoReferrer 到 image-utils.ts 消除三处重复实现 - 修复 rehype-figure 匹配域名时错误清空 alt 文本导致 figcaption 丢失 - 移除 Layout 客户端脚本中清空 src 重载图片的逻辑以避免闪烁 - 跳过非 http URL 避免对本地图片做无意义的 URL 解析
+[33m2b253fc[m refactor(common): fix for biome check
+[33m7071d76[m feat: 添加文章密码保护功能和密码提示
+[33m2e417ca[m feat: 添加文章加密保护功能, #230
+[33mc6f1298[m feat(media): 为图片组件统一添加防盗链处理功能 feat(media): Add Unified Anti-Hotlinking Functionality to Image Components
+[33m52b3af4[m fix: 修复页面存在多个h1标题
+[33m926e177[m Merge pull request #218 from CuteLeaf/dependabot-npm_and_yarn-svelte-5.51.3
+[33md0bab8b[m build(deps): bump svelte from 5.50.3 to 5.51.3
+[33m2552bcb[m Merge pull request #216 from CuteLeaf/dependabot-npm_and_yarn-biomejs-biome-2.4.2
+[33m8d79a3e[m Merge pull request #228 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-60b00b31da
+[33mc61914a[m refactor: 移除文章网格布局列数限制改成自适应网格列数布局
+[33m0cf8a31[m build(deps): bump the patch-updates group across 1 directory with 11 updates
+[33mdcc96af[m update: 将版本号更新至 6.7.2
+[33m8d608d7[m feat: 添加全屏透明模式的卡片背景透明度配置
+[33m1f78464[m style(sponsor): 更新赞助列表样式
+[33m00469cc[m style(friends): 更新友链页面样式和复制功能
+[33m340a76b[m update: 更新版本号至 6.7.1
+[33mc463ea8[m feat(friends): 更新友链页面样式
+[33m11739f8[m feat(bangumi): 更新番组计划样式
+[33md7fa352[m feat(gallery): add route guard for gallery page based on site configuration
+[33ma81b3ea[m chore: 修改相册配置注释
+[33mdb2b1d7[m Merge pull request #229 from CuteLeaf/dev
+[33m785cdc5[m update: 将版本号更新至6.7.0
+[33mc9aeb48[m feat(gallery): implement photo gallery feature with album and photo cards
+[33me160d39[m style: 优化代码块折叠按钮在透明模式下的可见性
+[33m01d5d31[m feat: 文章外部链接在新标签页打开, #205
+[33mbbe4ab8[m fix: 修复随机封面图API多个地址不按顺序轮询回退的问题
+[33m0dbbf90[m update: 将版本号更新至6.6.13
+[33m1ba2876[m fix: 修复纯色模式出现的页面重新渲染
+[33m3e15768[m update: 更新版本号至6.6.12
+[33m97c9fea[m feat: 添加页面宽度配置
+[33m3166370[m feat: 更新日历组件，添加滚动条样式并优化文章列表排序逻辑
+[33mbd634a8[m feat: add music manager component and integrate with global state
+[33m3b1dd2c[m feat: 优化分类列表排序逻辑为从多到少，#223
+[33m4944567[m fix: 修正.gitignore
+[33m5381382[m style: 更新分类栏样式，优化按钮交互体验，添加无障碍标签
+[33m6144e7c[m feat: 侧边栏分类组件点击跳转后更新横幅标题, 更新版本号至6.6.11
+[33me7e23b2[m fix: 隐藏全屏透明模式下的额外横幅元素
+[33m1009b30[m fix: 修复分类快捷导航栏在swup页面切换后不显示的问题
+[33mbc633e6[m fix: 修复日历组件选中高亮失效
+[33mefed84d[m feat: 更新版本号至6.6.9
+[33mda17669[m feat: 添加分类快捷导航开关，支持左右滚动
+[33m4f6676c[m feat: 为分类导航栏添加加载动画效果
+[33md2e5c2a[m feat: 添加分类导航栏组件并在主布局中集成
+[33m7f457e4[m style: 优化封面图像的缩放效果
+[33mc70c2e6[m feat: 侧边栏布局增强，支持右侧单侧栏和平板端侧栏保留选择
+[33mb86c228[m Merge remote-tracking branch 'origin/dependabot-npm_and_yarn-swup-astro-1.8.0' into dev
+[33m17a45b3[m fix: 修复文章详情页的横幅标题失效，更新版本号至6.6.7
+[33m12a69fd[m feat: 更新版本号至6.6.6
+[33md455a07[m fix: 修复日历组件的文章数据和pagefind切换页面时重新请求问题
+[33mc7d5908[m fix: 修复壁纸在切换页面时重新请求问题
+[33m3bc19c8[m build(deps-dev): bump @biomejs/biome from 2.3.15 to 2.4.2
+[33m82dc0c6[m Merge branch 'dev'
+[33ma3210a7[m feat: 添加导航进度条功能
+[33m3ebea87[m build(deps): bump @swup/astro from 1.7.0 to 1.8.0
+[33mb0be2ba[m feat: 更新回退封面图片路径说明，支持相对路径和公共目录路径 (#212)
+[33m912afad[m feat: 更新回退封面图片路径说明，支持相对路径和公共目录路径
+[33mc35f959[m biome format code
+[33m7fdda12[m feat: 添加横幅设置重置功能及默认值检查
+[33m19480d7[m feat: 调整横幅背景暗层的透明度
+[33m5564031[m Merge branch 'dev'
+[33m778e8f2[m Update README.zh-TW
+[33m3d72d4d[m feat: 更新版本号至6.6.5
+[33mad17d72[m fix: 优化目录处理逻辑和侧边栏组件初始化逻辑 (#209)
+[33mbb2bd3d[m feat: 添加文章页面判断逻辑，优化组件初始隐藏状态设置
+[33mac3a77e[m feat: 修改TOCManager类中的方法返回类型，优化标题处理逻辑
+[33mc42e228[m feat: 更新版本号至6.6.4
+[33mf7f1be0[m Update README
+[33m7285676[m Merge branch 'dev'
+[33mdf2613d[m feat: 更新横幅标题翻译为更具体的描述
+[33ma3cb0fb[m feat: 优化背景图片渲染逻辑，使用模板避免预加载
+[33m0715fc3[m feat: 更新字体配置注释说明
+[33mdc7ed87[m feat: 优化页面切换逻辑
+[33m287bb16[m feat: 优化移动端横幅样式和动画时长
+[33mfd256b4[m feat: 优化横幅文章页元信息
+[33m0d049b1[m Merge branch 'master' into dev
+[33m46cc510[m feat: 重构横幅模式和横幅文本显示逻辑，支持文章页面的元信息展示
+[33m9b5db2f[m fix: 修改壁纸配置注释说明
+[33mb2e329d[m fix: 修复部分样式出错，优化twikko在透明模式下的样式
+[33m7a39302[m feat: 更新版本号至6.6.3
+[33m08ac488[m feat: 优化壁纸覆盖模式下的图片显示，确保适应容器大小
+[33m355e3d9[m feat: 重构壁纸处理逻辑，替换为wallpaper-wrapper，优化显示模式切换
+[33meea584b[m feat: 优化视图设置集成面板的开关按钮样式
+[33md693b2e[m feat: 添加多张壁纸支持，优化背景图片配置和显示逻辑
+[33me7da731[m feat: 添加横幅设置和水波纹动画切换功能
+[33m4f40eaf[m build(deps): bump the patch-updates group across 1 directory with 8 updates (#207)
+[33m9d0c207[m fix: 回退波浪动画的修改
+[33m845f8ec[m feat: 优化动画时长和延迟，提升动画流畅度
+[33m71dcd14[m feat: 微调过渡动画时长，提升动画效果流畅度
+[33m7133c0e[m feat: 优化波浪动画性能，使用独立合成层和布局样式
+[33mbb32641[m feat: 优化过渡动画时长，提升页面响应速度
+[33m31ac9cd[m fix: 修复 PostCard 组件中图标显示问题
+[33mc242b3e[m fix: 修复分享海报无法显示头像
+[33mb785abb[m Update README
+[33mc44e34a[m feat: 添加响应式图像优化支持 (#202)
+[33m2202eb0[m fix: 修复 MusicPlayer 本地相对路径歌词（lrc）无法加载的问题 (#199)
+[33m189811a[m fix: Footer script duplicate execution issue #194
+[33m4cb79d5[m build(deps): bump svelte in the patch-updates group (#191)
+[33me4f3a4e[m fix: 移除透明模式下代码块的多余背景样式
+[33m7fd39d6[m feat: 添加透明模式下代码块样式
+[33mc215568[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33mb9b6c46[m feat: 调整音乐播放器面板的内边距以改善布局
+[33m98f7d73[m feat: 优化主题颜色设置界面布局保持一致性
+[33me03e921[m build(deps): bump the patch-updates group with 2 updates (#188)
+[33m504144e[m build(deps): bump overlayscrollbars from 2.13.0 to 2.14.0 (#189)
+[33m8d74db1[m build(deps): bump astro from 5.16.15 to 5.17.1 (#190)
+[33m73afbfc[m feat: 更新版本号至 6.5.10
+[33m92a6489[m feat: 将图标组件的样式计算改为响应式
+[33m4e982b5[m feat: 导航栏新增音乐播放器入口
+[33m5bed3e0[m feat: 优化部分无障碍问题及样式
+[33m24a097e[m build(deps): update @types/node from 25.2.2 to 25.0.3 in pnpm-lock.yaml
+[33m98cce74[m build(deps): bump unist-util-visit from 5.0.0 to 5.1.0 (#177)
+[33mf970dda[m build(deps): bump @astrojs/sitemap from 3.6.1 to 3.7.0 (#178)
+[33ma5dfc6c[m build(deps): bump the patch-updates group across 1 directory with 2 updates (#185)
+[33m8d4f9b6[m build(deps): bump svelte from 5.46.1 to 5.48.5 (#176)
+[33mb0e9aae[m build(deps): bump satori from 0.18.3 to 0.19.1 (#175)
+[33mddf0daa[m 修复导航栏Logo无法使用网络图片的问题 (#186)
+[33m50b4408[m feat: 调整 FloatingControls 组件底部位置，优化响应式布局
+[33m3ee96b0[m feat: 更新 PostCard 组件中的图标样式，优化视觉效果
+[33mdc6620f[m feat: 更新组件文档，修复移动端部分UI问题
+[33m25dec3e[m feat: 添加音乐播放器配置说明注释
+[33m54da79b[m feat: 更新版本号至6.5.9
+[33m1c9bd81[m feat: 更新音乐播放器配置，修复歌词字段格式
+[33mb86eb4b[m feat: 精简返回顶部按钮组件，移除进度条
+[33m10663d1[m feat: 优化音乐播放器，增加显示歌词
+[33m7d69fc9[m feat: 优化音乐播放器样式，并优化封面图加载逻辑
+[33mdc86587[m feat: 调整PostCard和PostPage样式以改善布局
+[33m3c2f811[m fix: 添加关键UI元素存在性验证，确保在页面切换时不出现空元素
+[33m23811a4[m fix: 移除已经不需要的旧配置
+[33m65fda92[m fix: 更新播放按钮样式以改善用户体验
+[33m31474d7[m feat: 添加音乐相关的国际化支持，更新多语言文件
+[33m03b6089[m feat: 添加音乐播放器小部件集成到侧边栏，移除旧的APlayer播放器
+[33m119f28b[m Update: 将版本号更新至 6.5.8
+[33m5d99101[m fix: 修复分享海报大小问题
+[33m3ae02a8[m feat: 更新 Biome 依赖至 2.3.14，并调整配置
+[33m76f943f[m feat: 优化 KaTeX CSS 加载方式，改为直接在文章页加载
+[33m2cc4b26[m Update: 更新版本号至 6.5.7
+[33m479a4b4[m format code
+[33m66e0aa8[m feat: 为图像组件添加加载策略和优先级配置
+[33m6e96ae0[m feat: 更新音乐播放器配置，默认关闭
+[33m219d35e[m feat: 优化图标预处理脚本
+[33md5a3987[m feat: 在文章页面按需加载KaTeX组件，移除全局引用
+[33m897f875[m refactor: 新增Svelte图标组件，无需运行时 API 请求，零延迟加载
+[33m4d57e3f[m fix: 解决全屏透明模式的时候导航栏不透明问题
+[33m128d940[m feat: 移除不必要的Stylus配置
+[33m03240ee[m feat: Tailwind CSS v4 migration support (#184)
+[33m6d7ccda[m feat: 调整返回顶部按钮进度条显示逻辑
+[33m39a9193[m feat: 优化国际化函数，添加中文备选翻译
+[33mfba3e61[m feat: 更新壁纸和布局按钮的样式，优化用户交互体验
+[33mfcf805a[m feat: 优化导航栏显示设置按钮逻辑
+[33m212b331[m feat: 优化显示设置面板的布局，调整间距和事件处理
+[33m3aee09f[m feat: 添加重置壁纸模式和布局的功能，更新国际化文本以保持一致性
+[33md05b602[m feat: 集成主题色、壁纸和布局设置面板，弃用旧组件并更新国际化支持
+[33md922ed7[m refactor: 增加代码折叠以及语言徽章
+[33m1fd019d[m feat: 添加返回顶部按钮及进度条，优化显示逻辑和样式
+[33m7fce7d1[m feat: 更新响应式布局，调整侧边栏隐藏阈值至1280px
+[33m990f31f[m feat: 启用资源压缩和优化，增加构建配置选项
+[33m35f72c3[m feat: 更新侧边栏组件配置注释，增加详细说明
+[33m9242e59[m Update: 更新版本至 6.5.3
+[33md426168[m feat: 优化页脚组件布局样式
+[33mfd699da[m feat: 优化站点统计组件
+[33mcaedbb4[m feat: 更新表格样式
+[33m7558f43[m Update README
+[33mb053dd2[m feat: 优化无障碍
+[33me53cb8f[m Update: 更新版本至 6.5.2
+[33m4d13b68[m fix: 浮动目录适配新的侧边栏配置
+[33m4a0332b[m refactor: 精简代码
+[33m9909293[m refactor: 减少代码重复
+[33m02c5064[m fix: 加回左侧单侧栏支持配置在文章详情页时显示右侧边栏
+[33m369cfdb[m fix: 修复布局切换列数问题
+[33m87aecab[m Update README
+[33m03e2764[m refactor: 调整页脚在不同屏幕尺寸下的列跨度
+[33m2024bd6[m Update README
+[33mac93c85[m Merge branch 'refactor/sidebar-unification'
+[33me80efa0[m Merge pull request #173 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-841acee09a
+[33m454d787[m refactor: 优化侧边栏配置和响应式布局逻辑
+[33m8c7367f[m refactor: 统一侧边栏组件类型和位置常量，简化组件过滤逻辑
+[33mad81244[m refactor: 统一侧边栏组件类型定义和配置逻辑
+[33m7fc1092[m refactor: 移除不再使用的组件类型和本地存储逻辑
+[33m6fe8557[m refactor: 修改折叠阈值逻辑
+[33m6085840[m refactor: 添加 showOnNonPostPage 属性以控制组件在非文章页的显示
+[33m47fbb3e[m fix: 添加移动端底部组件顶部间距
+[33me41589c[m fix: 添加移动端底部组件顶部间距
+[33mad562af[m fix: 移除侧边栏页面切换时的闪烁
+[33m4b42fb3[m fix: 修复右侧边栏粘性TOC组件顶部间距
+[33m946e1bc[m refactor: 实现完全动态的侧边栏组件
+[33mdada899[m build(deps): bump the patch-updates group across 1 directory with 11 updates
+[33m7ac1a83[m Merge branch 'master' into refactor/sidebar-unification
+[33m8da442d[m feat: 添加站点时区配置及日期格式化支持
+[33m3a2c0b1[m fix: 更新RSS生成逻辑
+[33m97104e3[m refactor: 移除移动端随机封面水印位置适配逻辑
+[33me4f40bf[m docs(i18n): 更新壁纸模式相关翻译文本
+[33ma89346b[m refactor: 优化WidgetLayout的样式逻辑
+[33ma9cfaf4[m fix: 修复路径问题
+[33me06018b[m Merge pull request #168 from TASA-Ed/fix-base
+[33m3658b14[m Merge remote-tracking branch 'upstream/master' into fix-base
+[33m9ec5e4c[m feat: 默认关闭需要第三方API的功能
+[33m49bee75[m fix(navbar): fixed navigation bar transparency mode and blur effect configuration
+[33m17f380b[m fix: 可能的跳转路径错误
+[33m6b761bf[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m8bce873[m style(navbar): 优化全宽导航栏的样式适配
+[33m3d50e57[m Merge pull request #165 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-05fbe5ce70
+[33md3578bf[m build(deps): bump @iconify-json/simple-icons in the patch-updates group
+[33m93aa717[m fix(navbar): 调整响应式断点并修复全宽导航栏样式
+[33m2c59572[m Merge pull request #164 from noctiro/master
+[33m6ae60c2[m Use text segments in typewriter effect
+[33me0d98d4[m fix: default disable frosted glass blur effect of banner navigation bar
+[33m8c2ed84[m fix: increase the duration of the swup fade-in transition to 300ms
+[33m8c44cd2[m Enhance page transition animations and add navbar blur options
+[33m7249051[m feat: 添加导航栏样式适配
+[33me75eaf6[m feat: 添加卡片样式配置
+[33m01aa5e0[m feat: 支持更多Admonitions风格配置
+[33m8e5a7c0[m refactor: remove theme manager script
+[33mcc04416[m docs: add examples for custom slugs in the guide
+[33m675e5ec[m refactor: remove search indexer integration and update build script
+[33m4c22cc7[m Update README
+[33m026a905[m refactor(components): reorganize component structure and rename folders
+[33mf1e4875[m Merge pull request #163 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-13d01556e2
+[33ma17cdf7[m Update README
+[33m3db7308[m build(deps): bump the patch-updates group across 1 directory with 5 updates
+[33mb44f4b6[m feat: Refactor floating button components and enhance TOC functionality
+[33maf95610[m Refactor: Unify sidebar components and simplify configuration
+[33m7e5e046[m Update: 更新版本号至 6.3.6
+[33mea91e23[m Update README
+[33m6442047[m feat: 移除 MeiliSearch 依赖
+[33m03ac23b[m Merge pull request #160 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-0dc5dae849
+[33m09abd3f[m Merge pull request #161 from MoeSakuraW/master
+[33m3cbe571[m feat: 优化波浪动画，移除 MeiliSearch
+[33m98697bc[m fix: 添加备用 h1 标题解决 SwupA11yPlugin 检查警告
+[33me11e867[m build(deps): bump the patch-updates group across 1 directory with 2 updates
+[33m0f416ec[m feat: 优化友链标签筛选组件的渲染逻辑
+[33me592c6a[m feat: move floating directory component
+[33m587b77f[m feat: 更新分析组件
+[33m60748eb[m Merge pull request #159 from MoeSakuraW/master
+[33m7480759[m feat: 添加 Google Analytics 和 Clarity 统计组件
+[33mcd4ba07[m Update: 更新版本号至 6.3.5
+[33mec7388a[m Merge pull request #158 from MoeSakuraW/master
+[33mf5631b8[m Merge branch 'master' into master
+[33m50c3cc5[m fix: 修改文章评论开关功能字段名
+[33m790a539[m feat: 更新日历组件，使用动态 URL 生成 API 请求和文章链接
+[33m82068c1[m feat: 更新布局系统详解
+[33m3610fdb[m feat: 更新侧边栏，左侧单侧栏支持配置在文章详情页时显示右侧边栏
+[33m60f5a53[m feat: 添加文章评论开关功能
+[33mc48a805[m Merge pull request #157 from MoeSakuraW/master
+[33m3e19d6d[m fix: 移除代码块自定义选中背景色样式
+[33md44ab53[m Update: 更新版本号至6.3.3
+[33mdcd67d2[m feat: 添加主页横幅主副标题字体大小配置
+[33maaf3a58[m feat: 添加分享海报生成功能配置开关及相关国际化文本更新
+[33m0c5d9a9[m fix: 更新版本号至6.3.2
+[33m8addd05[m feat: optimize site statistics component
+[33m1db1299[m Update README
+[33m30dd80e[m fix: 更新版本号至6.3.1
+[33md07c4fa[m feat: add siteConfig import to Layout component
+[33m27a1f90[m Merge branch 'master' into dev
+[33m875fcd2[m fix: 修复代码块主题部分问题
+[33m1931ec1[m Update README
+[33m7188eaa[m Merge pull request #154 from MoeSakuraW/master
+[33mabc9394[m refactor: 更新布局文章
+[33mdc5f2f7[m refactor: 移除布局状态恢复和相关注释以简化代码
+[33mc1a40cc[m refactor: 移除布局切换动画相关代码以简化布局管理
+[33m31b3870[m fix: 移除未使用的变量声明以优化代码
+[33m019db4b[m feat: 更新侧边栏配置为双侧并调整文章列表布局说明
+[33m05f1244[m fix: 简化悬浮TOC显示条件，移除布局模式依赖
+[33mf537ba6[m feat: 优化横幅文字样式
+[33m46a990a[m feat: 增加悬浮TOC按钮的侧边栏位置配置，优化显示逻辑
+[33m56c8d7d[m feat: 优化布局样式，重构网格模式
+[33m1ba1acf[m perf: 优化 github card 头像加载尺寸
+[33m88b6b6d[m Merge pull request #153 from MoeSakuraW/master
+[33m9a6be3a[m fix: 优化点击外部关闭面板的逻辑，增加空值校验
+[33m533f124[m 更新版本号，本次更新会导致配置文件大量冲突，请注意手动解决冲突在合并！！！
+[33ma92f242[m feat: 重构导航栏配置，优化结构并支持主题色跟随
+[33m4679925[m feat: 添加友链页面配置，支持动态列数设置
+[33m1755fe8[m fix: 更新版本号，本次更新会导致配置文件大量冲突，请注意手动解决冲突在合并！！！
+[33mec66fd2[m Update README
+[33m3712dd5[m feat: 优化友链页面，重构标签筛选功能并修复样式问题
+[33m69d785e[m feat: 规范配置文件注释，解耦背景壁纸配置
+[33mffc7d38[m feat: 更新友情链接样式,添加标签筛选功能并更新国际化文本
+[33mcdb6230[m feat: 添加 Microsoft Clarity 统计分析
+[33ma030f47[m Merge pull request #152 from MoeSakuraW/master
+[33mdf69aca[m refactor: 移除 Layout.astro 中的硬编码统计代码
+[33md118695[m Merge pull request #151 from MoeSakuraW/master
+[33mb308ec5[m style: Artalk 使用主题色
+[33m13b9354[m Merge pull request #150 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-a48a8daab8
+[33me81b0ea[m build(deps): bump @iconify-json/simple-icons in the patch-updates group
+[33md57aca8[m chore: 更新版本号至5.12.31
+[33m5d73f6a[m fix(PostCard): 修复网格模式下置顶按钮的背景样式
+[33mb60fac8[m feat: add the old cover position option
+[33m60dfd30[m feat: 更新RSS生成逻辑，添加构建时间和国际化支持
+[33ma32adb6[m Merge pull request #149 from jhll1124/master
+[33m336dc62[m fix: Node.js 22+ compatibility
+[33m48efbd0[m feat: Add a separate search page
+[33m65e863a[m Merge pull request #147 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-98c82911bb
+[33m50041fa[m build(deps): bump svelte in the patch-updates group
+[33m4669dfb[m fix: Revise the tags and categories of MDX sample articles
+[33m7de5357[m feat: Support MDX format articles, resolved #146
+[33m4c658d7[m feat: enhance calendar component
+[33m166c1fe[m format code
+[33ma3dd78b[m fix: 优化路径处理逻辑, fixes #145
+[33m17b9528[m fix: Fancybox failing after build
+[33mb567a17[m feat: modify the number of articles displayed per page from 8 to 10.
+[33mdb0007e[m feat: Enable KaTeX's mhchem extension to support chemical equations, optimizing Fancybox
+[33mf6fe7d5[m format code
+[33mbda5452[m Merge pull request #144 from Neko-Tsuki/master
+[33mb485bb4[m feat: 增加了自定义文章过期时间阈值
+[33m37046c3[m fix: 优化海报封面图片加载失败时的处理逻辑
+[33m371237f[m Update README.md
+[33m08f4510[m fix: 调整代码块选择背景色以改善可读性
+[33m21b0d73[m fix: 调整海报生成宽度以改善视觉效果
+[33m9e64426[m fix: 修复分享海报部分问题
+[33m7b60731[m feat: add share poster functionality and update translations, resolved #142
+[33m05c1dd5[m Merge pull request #143 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-bd5046491d
+[33m27e8b3e[m build(deps-dev): bump @biomejs/biome in the patch-updates group
+[33mac2d130[m Merge pull request #141 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-92ebb54d04
+[33mb41d505[m fix: 修复日历组件动画消失
+[33me5bc74b[m feat: 优化布局切换逻辑
+[33mb90912b[m feat: 移动评论组件位置至布局末尾
+[33mb546bdb[m build(deps): bump the patch-updates group with 7 updates
+[33m1dcf45f[m feat: update grid layout configuration, adjust masonry layout options
+[33m9eea84e[m format code
+[33ma8ba059[m feat: 添加书籍和音乐的状态及过滤翻译
+[33mdfd3efa[m feat: 启用 Bangumi 的书籍和音乐展示
+[33m52e6dbd[m feat: 增加瀑布流布局
+[33m2459335[m fix: 修复加载指示器显示逻辑
+[33m473b0a4[m format code
+[33m2432096[m feat: 添加封面图配置选项以控制文章详情页封面图显示, Resolved #140
+[33maac2d35[m feat: 更新随机封面图配置，重构相关逻辑以支持新结构
+[33m76fe24c[m Merge pull request #139 from CuteLeaf/dependabot-npm_and_yarn-svelte-5.46.0
+[33mc196d0f[m Merge pull request #138 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-abedea3ffd
+[33me56433d[m format code
+[33m01b3313[m feat: 添加日历组件的月份导航
+[33m1253153[m build(deps): bump svelte from 5.45.10 to 5.46.0
+[33m311b5b1[m build(deps): bump @iconify-json/simple-icons in the patch-updates group
+[33m037bf26[m fix: 修复PostCard组件在网格模式下的样式问题
+[33m3e0c5a1[m fix: 解决随机副标题不生效
+[33mf56607d[m feat: component readme
+[33m78286b8[m style: 调整有封面的固定卡片内容和标题的内边距
+[33me9cab58[m fix: 调整PostCard组件的内边距以优化布局
+[33mb3eb7b9[m style: 微调PostCard组件样式
+[33md6835f9[m format code
+[33mc2bc491[m feat: optimize the cover of the grid layout
+[33m59690ed[m feat: 添加响应式样式和类名以优化PostCard组件布局
+[33mec8d8af[m fix: 修复全屏透明显示逻辑
+[33m053e605[m feat: 优化全屏透明壁纸组件
+[33mc7dbfb7[m fix: 优化归档
+[33m20e0fd1[m refactor: 优化评论组件的初始化逻辑
+[33m28d02b4[m fix: 修复邮件链接编码方式，确保兼容性；更新搜索配置以支持未定义值；调整归档页面以处理未定义分类
+[33m6f40360[m update pnpm-lock.yaml
+[33md51ce1a[m Merge remote-tracking branch 'origin/dependabot-npm_and_yarn-patch-updates-7758a9a9bc'
+[33m4f49000[m fix: 更新 .gitignore 文件以包含 .obsidian 目录
+[33m1c9845b[m fix: 优化 ArchivePanel 组件的事件监听逻辑以提高性能
+[33mf0fe15d[m refactor: 初始化函数中处理标签和分类的逻辑以提高可读性
+[33m4df1610[m fix: 增强对 localStorage 可用性的检查以避免潜在错误
+[33mbb14695[m feat: 更新评论组件以支持主题切换和页面重载
+[33m5891c18[m feat: 添加游戏相关的过滤器和状态翻译支持
+[33mc5eeb6e[m feat: add game-specific filters and status translations for Bangumi, Resolved #135
+[33m09a4c07[m build(deps): bump the patch-updates group across 1 directory with 13 updates
+[33m66eebf0[m refactor: clean up code formatting and property destructuring
+[33m3c62c7c[m feat: add full-width navbar configuration option
+[33m1ce8b91[m Update RSS icon from material-symbols to fa6-solid
+[33ma515268[m Update RSS profile link from
+[33m2f057ca[m refactor: reorder imports in rehype-figure plugin
+[33m74a3af8[m feat : add email protection feature and Image title display
+[33me8b73a7[m perf: 优化全屏壁纸模式卡顿问题
+[33m12bfb97[m refactor: improve type safety and remove unused imports across components
+[33m4ac6fd5[m feat: reinitialize icon loader on page navigation and initial load
+[33m6771002[m update pnpm-lock.yaml
+[33m6f8873e[m Merge pull request #126 from CuteLeaf/dependabot-npm_and_yarn-svelte-5.45.2
+[33m4067427[m update pnpm-lock.yaml and astro 5.16.2
+[33ma86308e[m Merge branch 'master' into dependabot-npm_and_yarn-svelte-5.45.2
+[33m5c75e61[m Merge pull request #125 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-c1b4b33c5e
+[33m12579f6[m update change workflow triggers from main to master branch across biome.yml, build.yml, and deploy.yml
+[33mdc033f8[m build(deps): bump svelte from 5.44.0 to 5.45.2
+[33m759b8b4[m build(deps): bump astro from 5.16.2 to 5.16.3 in the patch-updates group
+[33m88abac8[m refactor: format code with Biome and update schema to 2.2.0
+[33ma7dd135[m feat: Optimize archive page by passing minimal post data instead of full post objects to ArchivePanel component
+[33me4d0da1[m refactor: rename unused variables with underscore prefix across multiple components
+[33m65f4d4d[m refactor: remove unused imports and improve TypeScript type safety
+[33m680ed7e[m refactor: add is:inline directive to script tags and fix unused variable warnings
+[33m7740bbe[m refactor: improve TypeScript type safety and icon component usage
+[33m80717a4[m refactor: add TypeScript type annotations across multiple components
+[33m7a4c8d5[m docs: Update README
+[33mc93112d[m docs: update Astro version badge from 5.16.0 to 5.16.2
+[33m41bde87[m Merge pull request #120 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-c8d2518824
+[33m36943e6[m Merge pull request #123 from DHJComical/workflows_fix
+[33mbcc2f99[m fix: add .nojekyll to fix missing styles on deploy
+[33m57ae669[m feat(pio): disable Spine model by default
+[33m767c91c[m Update README
+[33m03fe615[m fix(layout): change scroll behavior from instant to smooth to prevent sidebar flicker
+[33m3322748[m docs: reorganize README files and update documentation
+[33m5939889[m Merge branch 'master' into dependabot-npm_and_yarn-patch-updates-c8d2518824
+[33m320357a[m Merge pull request #118 from CuteLeaf/dependabot-npm_and_yarn-overlayscrollbars-2.13.0
+[33mac44602[m Merge pull request #117 from CuteLeaf/dependabot-npm_and_yarn-svelte-5.44.0
+[33m564f920[m Merge pull request #121 from ccd2s/master
+[33ma99f246[m feat: 添加 artalk 评论
+[33m4431d2d[m build(deps): bump the patch-updates group across 1 directory with 5 updates
+[33mf337b04[m feat(calendar): add language-aware date format for calendar widget title
+[33mcf5b257[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m4f10694[m style: update 404 page button hover color to use CSS variable
+[33m1b7c5ed[m build(deps): bump overlayscrollbars from 2.12.0 to 2.13.0
+[33m37bff4b[m build(deps): bump svelte from 5.43.14 to 5.44.0
+[33m668c8dd[m Merge pull request #114 from Neko-Tsuki/master
+[33m2685261[m fix(live2d): 修复live2d无法正常显示的问题
+[33m016403c[m Merge pull request #113 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-3062fe97c1
+[33m0212943[m build(deps): bump the patch-updates group with 2 updates
+[33m0134c3f[m docs: format layout description as tip callout in README files
+[33m39f472e[m Update language links in README
+[33mc297bb4[m Update bangumi
+[33mdccff25[m Update README.md
+[33m60a7b68[m Merge pull request #111 from CuteLeaf/dependabot-npm_and_yarn-astro-5.16.0
+[33ma89ace5[m build(deps): bump astro from 5.15.9 to 5.16.0
+[33mb4e8a9c[m Merge pull request #110 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-91b35989e0
+[33m2eb13b7[m feat: update component
+[33mdc60ed0[m build(deps): bump the patch-updates group with 4 updates
+[33mbca9c11[m docs: update grid layout documentation to reflect cover image display changes
+[33mbc13626[m feat: 提高UI一致性
+[33m3539fb7[m docs: remove right sidebar layout option and update documentation
+[33m85ea3bb[m Merge pull request #108 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-0ff8274907
+[33mbc1553b[m refactor: migrate TOC components from inline scripts to TypeScript modules and improve initialization
+[33mb528755[m refactor: remove unused 'toc' component references from layout and config files
+[33m62fef22[m refactor: remove deprecated TOC component and simplify post page detection logic
+[33mec582ff[m build(deps): bump @fancyapps/ui in the patch-updates group
+[33mf8c2113[m feat: add dynamic visibility control for floating TOC based on layout and sidebar state
+[33ma2b47ab[m refactor: extract shared TOC styles into reusable component
+[33mf737063[m fix: increase TOC button hover and active state brightness in dark theme
+[33mf406809[m feat: implement sidebar component visibility control based on page type
+[33mee7a442[m Merge pull request #107 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-daa5c59701
+[33mce9f56c[m build(deps): bump svelte in the patch-updates group
+[33m4ca0847[m fix: eliminate right sidebar flicker on page refresh and improve layout switching animations
+[33mdd07a18[m fix: prevent main content animation during mobile banner show transition
+[33mf0377f2[m fix: prevent GTM and Clarity scripts from reloading on page transitions
+[33m4e4327d[m fix: prevent layout animation conflicts on mobile navigation
+[33m304bc84[m feat: add smooth layout switching animation with anti-flicker optimization
+[33mf4cd1b4[m feat: optimized animation
+[33m2ce84d0[m feat: update post card animation to slide in from the right
+[33mb316470[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m42b8cf3[m feat: optimize layout
+[33m323fa54[m Update README
+[33m49168c7[m Merge pull request #103 from CuteLeaf/dependabot-npm_and_yarn-glob-11.1.0
+[33m7385527[m Merge pull request #102 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-df9a0bceba
+[33m287065b[m build(deps): bump glob from 11.0.3 to 11.1.0
+[33me94f7a7[m build(deps): bump the patch-updates group with 5 updates
+[33m7049e95[m fix: SiteStats
+[33mdc52f2e[m Merge pull request #100 from CuteLeaf/astro-v5api
+[33mbc7743a[m Merge pull request #96 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-0084abb8db
+[33me98b04b[m Update README.md
+[33m415106a[m Revise README with new features and improvements
+[33md6195ac[m feat(theme): 精简系统主题监听器，优化性能和兼容性
+[33m9b4cff3[m feat(theme): 优化系统主题监听器，减少重绘和闪屏问题
+[33mba05c6e[m fix(PostCard): 更新 RandomCoverImage 组件的 basePath 使用 getFileDirFromPath 函数
+[33m0321340[m feat(url-utils): 添加 getFileDirFromPath 函数并更新相关组件以使用新路径
+[33m0a890e6[m fix(RandomCoverImage)
+[33m3ff00de[m Astro v5 with new API
+[33mdc097b3[m Implement initial structure for code changes
+[33ma596137[m feat(image): 优化图片渲染，移除冗余样式和属性
+[33m4e5f41c[m feat: 优化移动端动画
+[33m86ab14e[m feat: 更新平滑滚动和预加载配置，优化移动端动画性能
+[33m115f9f2[m feat(sidebar): 更新侧边栏位置配置为双侧
+[33m8d88e34[m feat: 优化动画
+[33md30723b[m feat: 优化动画
+[33m00396a4[m feat(copy-btn): 更新复制按钮样式
+[33m59f924c[m feat(loading): 更新加载指示器配置，重命名为loading.enable并移除旧属性
+[33ma2bf703[m Merge pull request #99 from Neko-Tsuki/master
+[33mc3fc1df[m feat(cover): 为所有封面图片显示加载指示器并添加配置开关 - src/components/misc/RandomCoverImage.astro：将加载指示器从仅针对随机图 API 改为针对所有文章封面图片显示。 -  src/config/coverImageConfig.ts：新增 loadingIndicatorEnable 开关（默认 true）。 - src/types/config.ts：在 CoverImageConfig 类型中添加 loadingIndicatorEnable 属性。 - src/components/misc/RandomCoverImage.astro：根据 coverImageConfig.loadingIndicatorEnable 的值决定是否显示加载指示器。
+[33m2c4f736[m feat: 优化复制按钮样式，调整阴影和背景颜色
+[33mddf48a9[m build(deps): bump astro from 5.15.5 to 5.15.6 in the patch-updates group
+[33maf44bca[m feat: 更新日历组件以支持动态渲染和客户端统计
+[33m6254412[m feat: 简化布局示例
+[33mdba4634[m feat: 更新布局配置说明并删除不必要的图片文件
+[33m27ffcd5[m Refactor code structure and remove redundant sections for improved readability and maintainability
+[33m31c6236[m add: Firefly 布局系统详解
+[33m6082f20[m feat: 取消代码块换行
+[33mf23267d[m feat: 更新注释，明确双侧边栏配置对文章列表网格布局的影响
+[33m491710f[m feat: 始终渲染主内容区，优化双侧边栏模式下的右侧边栏显示逻辑
+[33m14659cb[m feat: 优化左侧边栏组件的渲染逻辑，调整动画效果
+[33m97cf25c[m feat: 优化图片渲染逻辑
+[33m1c1d908[m feat: 优化页面加载动画，调整横幅模式下的侧边栏动画效果
+[33m0966661[m feat: 优化分页组件的渲染逻辑，仅在需要时显示
+[33mad5d7d3[m feat: 移除Spine模型组件中的拖拽功能及相关事件处理逻辑
+[33m9d1d0ff[m feat: 优化左侧边栏组件的响应式逻辑，调整右侧组件的显示样式
+[33m9526576[m feat: 优化右侧边栏组件的响应式隐藏逻辑，调整Tailwind断点配置
+[33m5f8aca0[m feat: 优化侧边栏响应式逻辑，移除不必要的断点配置，增强组件可见性检查
+[33mffc8d2d[m feat: 移除隐藏侧边栏配置及相关逻辑
+[33m86fe4e1[m feat: 优化布局样式，调整banner模式下主内容区域位置
+[33mdbdc647[m feat: 优化组件过滤逻辑
+[33md807af1[m feat: 添加自动隐藏侧边栏功能及相关配置，优化响应式布局
+[33m640475c[m feat: 添加日历组件及相关配置，支持文章日期展示
+[33me042349[m feat: 更新站点统计组件的语言翻译，简化统计项描述
+[33m0820693[m feat: 优化站点统计组件样式，移除不必要的样式和过渡效果
+[33m1bda3fb[m feat: 添加站点开始日期配置，用于统计运行天数
+[33m9112803[m feat: 添加站点统计功能及多语言支持
+[33m923380a[m feat: 添加站点统计组件及相关配置
+[33m81c449f[m feat: 添加双侧边栏支持，更新相关组件和配置
+[33m461bb1b[m Update multiple image files
+[33m3bf78c3[m update
+[33me19715a[m Fix formatting in README for blog configuration section
+[33m39c749d[m Merge pull request #95 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-aaa5e6292c
+[33m568c2c3[m feat: 站点 URL 配置
+[33mf78d2c7[m fix: 修复音乐播放器歌词显示问题
+[33m76872c3[m feat: 优化本地音乐列表路径处理，支持完整 URL
+[33m36d81ea[m build(deps): bump the patch-updates group with 3 updates
+[33m40b1fd9[m feat: 更新番组页面以显示数据更新时间
+[33mfcfc319[m feat: 添加番组计划组件国际化支持
+[33m121eb70[m update siteConfig
+[33m973f703[m Merge pull request #94 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-36fbe76266
+[33md526824[m feat: add Bangumi page and related components
+[33m23b1a6e[m build(deps): bump astro from 5.15.4 to 5.15.5 in the patch-updates group
+[33m7900a50[m remove: pluginLanguageBadge
+[33mf3fe860[m Delete src/content/posts/firefly-font-config.md
+[33m519e129[m Merge pull request #93 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-3fc0aabb25
+[33m6eac517[m refactor(theme): update expressive code theme configuration to support light and dark modes with improved theme handling,resolves #92
+[33m5ebda11[m build(deps): bump the patch-updates group with 2 updates
+[33m44e35ec[m refactor(rss): enhance RSS copy button functionality with improved event handling and support for dynamic content updates
+[33m428e872[m Update README
+[33m9ab9bb2[m Merge branch 'master' into dev
+[33mff24134[m Merge pull request #90 from xpfxzxc/fix-markdown-table-alignment
+[33m5d56419[m fix(responsive): update media query breakpoints for tablet and desktop styles, ensuring consistent layout across devices
+[33mc69d728[m fix(markdown): apply text-align for table cells with align attribute
+[33m81b92b1[m fix(DropdownMenu): add navbar-icon class to icons and update CSS to hide main navigation icons
+[33m5073666[m feat(ArchivePanel): Sort filtered posts by published date in descending order
+[33m3126f45[m Merge pull request #88 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-3e31032506
+[33m1915557[m Merge pull request #89 from xpfxzxc/fix/giscus-web-component
+[33mc40285c[m fix(giscus): load web component script and use HTML comment syntax
+[33ma1ff599[m build(deps): bump the patch-updates group with 6 updates
+[33m89cb16a[m change autoplay setting to false for music player
+[33m76b885d[m Merge pull request #87 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-ffe7b2a37e
+[33mea9ae76[m build(deps): bump the patch-updates group with 2 updates
+[33m1dd13d4[m Merge pull request #85 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-88be6fa2f5
+[33m35d18b2[m docs(footer)
+[33ma3af1f5[m feat(musicPlayer): Implement mobile visibility handling for MusicPlayer component
+[33m55ceec7[m refactor(musicPlayer): Enhance MetingJS integration and API handling
+[33maa28e8f[m Merge pull request #86 from LimLLL/master
+[33m1688e92[m docs(search): 修正注释
+[33mdc2598b[m chore(meilisearch): 为 MeiliSearch 索引脚本添加日志记录
+[33m1c625c5[m refactor(config): 移除客户端 MeiliSearch Master Key 配置
+[33m1115d07[m feat(search): 新增构建时自动搜索索引集成
+[33m0793ff1[m refactor(meilisearch): 将 MeiliSearch 索引脚本重构为可复用类
+[33m9fb687b[m build(deps): bump the patch-updates group across 1 directory with 4 updates
+[33m23c7d35[m Enhance APlayer styles for touch devices
+[33m6a3af6a[m Refactor music player component and styles
+[33m81e687f[m Enhance MeiliSearch configuration by updating environment variable usage
+[33mfb5d85c[m Delete src/docs directory
+[33m139dc83[m Merge pull request #83 from CuteLeaf/dev
+[33m0f2a791[m Update README
+[33m6d4bd92[m Merge pull request #81 from LimLLL/master
+[33m78997cd[m improve(search): 优化 MeiliSearch 索引脚本的配置与安全性
+[33m9eb42e5[m Merge pull request #78 from CuteLeaf/dev
+[33ma91e01e[m fix: 把渲染随机封面图相关代码封装成单独组件，避免影响其他图的渲染
+[33mb49dd74[m Merge pull request #76 from CuteLeaf/dev
+[33mbf9341b[m fix: 默认禁用广告组件
+[33m21f3b9c[m fix: 修复移动端广告组件无外边距
+[33m11da452[m fix: 修复头像显示问题
+[33m4562fbd[m Merge pull request #75 from CuteLeaf/dev
+[33m723c8f7[m feat(navbar): integrate navBarSearchConfig for improved search functionality
+[33mba99460[m Merge pull request #74 from CuteLeaf/dev
+[33m601d1c9[m Merge pull request #72 from LimLLL/master
+[33m7b3fd3f[m Merge pull request #73 from CuteLeaf/dev
+[33m4463b9c[m refactor: 音乐播放器切换为APlayer
+[33ma00b1c3[m refactor: remove unnecessary loading indicator overlay from ImageWrapper component
+[33m673a224[m chore(search): 调整默认搜索方式为 PageFind
+[33m16d356a[m feat(search): 新增 MeiliSearch 作为可选的搜索提供商
+[33m16d4668[m Merge pull request #71 from CuteLeaf/dev
+[33m924dbbc[m fix: optimize font fetching logic with caching mechanism
+[33mc95f01e[m Merge pull request #70 from CuteLeaf/dev
+[33mfc9ae4e[m fix: update cover image API endpoints for improved functionality
+[33m2fe1fec[m Merge pull request #69 from CuteLeaf/dev
+[33m03e3d27[m Merge branch 'dev' of https://github.com/CuteLeaf/Firefly into dev
+[33m65cac71[m chore: bump version from 3.1.0 to 3.3.0 in package.json
+[33m9af1233[m refactor: enhance image loading indicator logic and styles for better user experience
+[33m957518b[m feat: implement random cover image feature with API support and fallback mechanism
+[33m1082d7d[m Merge pull request #67 from CuteLeaf/dev
+[33m0aabbcc[m feat: add guestbook page logic to configuration
+[33mb4a3650[m Merge pull request #66 from CuteLeaf/dev
+[33m433516b[m fix: update guestbook translation
+[33m8be59a4[m Merge pull request #65 from CuteLeaf/dev
+[33me74d413[m feat: add guestbook comment hint translations and update guestbook page logic
+[33m97fd7bd[m chore: update demo site URL across configuration and documentation
+[33m06581e5[m feat: add guestbook page configuration and update navigation links
+[33m4fd356b[m fix: remove unnecessary dark mode background from sponsor QR code section
+[33m0c754a7[m Merge pull request #64 from CuteLeaf/dev
+[33m2a87fce[m Merge pull request #62 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-ea9fa45f66
+[33m4bea6d1[m build(deps): bump the patch-updates group with 3 updates
+[33mbec66fc[m Merge pull request #61 from CuteLeaf/dev
+[33m007b880[m refactor: update Giscus comment component for improved integration
+[33m34d86a0[m feat: enhance comment system integration, resolves #39
+[33mcd170f1[m Merge pull request #60 from CuteLeaf/dev
+[33mf287991[m update: pnpm-lock.yaml
+[33mca54500[m Merge pull request #58 from CuteLeaf/dependabot-npm_and_yarn-svelte-5.43.0
+[33m16ee3ec[m build(deps): bump svelte from 5.41.1 to 5.43.0
+[33m2f7eea0[m Merge pull request #56 from CuteLeaf/dependabot-npm_and_yarn-fancyapps-ui-6.1.2
+[33mfd6d4e5[m Merge pull request #59 from CuteLeaf/dependabot-npm_and_yarn-biomejs-biome-2.3.2
+[33me3f0dbb[m Merge pull request #57 from CuteLeaf/dependabot-npm_and_yarn-astro-5.15.2
+[33mf966eb1[m build(deps-dev): bump @biomejs/biome from 2.2.6 to 2.3.2
+[33m6d9d2ef[m build(deps): bump astro from 5.14.7 to 5.15.2
+[33m26b5f02[m build(deps): bump @fancyapps/ui from 6.0.34 to 6.1.2
+[33mab31773[m Merge pull request #55 from CuteLeaf/dev
+[33maebca76[m chore: update package dependencies and site configuration
+[33m03838a4[m Merge pull request #54 from CuteLeaf/dev
+[33m173b8c5[m style: 调整导航栏相关功能面板的透明度
+[33mf509671[m Merge pull request #52 from CuteLeaf/dev
+[33m6ee6661[m refactor: optimize banner height calculation for improved rendering
+[33m875c632[m feat: enhance internationalization for theme and wallpaper modes
+[33m6afebbc[m feat: implement system theme mode for light/dark switch
+[33md1d73a6[m refactor: enhance light/dark mode and wallpaper mode components
+[33mfa8d8f0[m refactor: simplify wallpaper mode toggle functionality
+[33m0c495fd[m Merge pull request #51 from CuteLeaf/dev
+[33m52bf000[m fix: 修复切换壁纸模式时导致homeText开关失效
+[33mae04b63[m Add files via upload
+[33mb5ccf03[m Update background wallpaper mode to 'banner'
+[33m874fa92[m Merge pull request #50 from CuteLeaf/dev
+[33mdb0b7c1[m refactor:  enhance wallpaper mode functionality
+[33m0763482[m Update README
+[33mfbbe9e6[m Add files via upload
+[33me3c8bb6[m 更新预览图 (#49)
+[33m8ff9d4d[m Merge pull request #48 from CuteLeaf/dev
+[33mf4a3cd1[m chore: remove unused dependencies from pnpm-lock.yaml
+[33mfcc7ebc[m fix(style): update FloatingTOC responsive styles and hide active indicator on mobile
+[33mdbe5842[m fix:  float panel interactions
+[33ma6f97e4[m Merge pull request #46 from LimLLL/master
+[33m7fb1259[m fix(style): 修复常态comment section在twikoo管理面板之上
+[33m323c9e8[m chore: lock yaml update
+[33m836a856[m feat&fix(admonition): 添加mdx支持并修复mdx无法使用admonition的问题
+[33m29b7ab1[m fix(style): 修复Twikoo评论卡片悬停时的层叠问题
+[33m7de5d32[m Merge pull request #45 from CuteLeaf/dev
+[33m02ec9ee[m refactor: Add page transition protection to prevent navbar flickering during navigation
+[33mc2fb763[m refactor: Update FloatingTOC styles to improve visibility and layout handling for hidden elements
+[33mdf944dc[m Merge pull request #44 from CuteLeaf/dev
+[33mf6ed7fe[m refactor: Enable wave animations for desktop and mobile, and update navbar styles for improved aesthetics
+[33mc82a5d0[m Merge pull request #43 from CuteLeaf/dev
+[33me57c75c[m refactor: Improve LightDarkSwitch component initialization and theme synchronization, and update navbar styles for consistent borders
+[33m9ae1df0[m refactor: Enhance FloatingTOC styles for improved responsiveness and scrolling behavior
+[33ma04b4d1[m Merge pull request #42 from CuteLeaf/dev
+[33m8acf507[m refactor: Update theme color hue and disable wave animations for desktop and mobile for improved user experience
+[33mf01e84c[m Merge pull request #41 from CuteLeaf/dev
+[33mecbeae7[m refactor: Optimize CSS for performance enhancements, including GPU acceleration, animation improvements, and responsive design adjustments
+[33m4d2a242[m refactor:  remove unused bcrypt and crypto-js libraries, and enhance asset path handling in components for improved performance and maintainability
+[33m6fbd931[m refactor: Revamp MusicPlayer component structure and enhance configuration handling for improved maintainability and performance
+[33m41cbe44[m refactor: Enhance FloatingTOC functionality and remove MobileTOC component for improved performance and consistency
+[33m9464ecc[m refactor: Consolidate navbar styles and update animation keyframes for improved consistency and performance
+[33m4b3abdb[m refactor: Update navbar configuration to use navbarLogo and navbarTitle, enabling more flexible branding options
+[33m63e88b0[m Fix: 修复部分资源路径问题, fixes #40
+[33mc71f2a4[m refactor: Update banner positioning logic and remove redundant object-position styles for improved layout consistency
+[33md1239fd[m refactor: Simplify theme management by removing system mode support and updating default theme settings
+[33mec630a7[m refactor: Remove redundant instance check for AnimePageManager to streamline initialization process
+[33ma727fe7[m refactor: Prevent duplicate declarations of AnimePageManager and ensure single instance initialization for better memory management
+[33m5ff4bea[m feat: Expand anime status and page text translations in multiple languages for improved user experience
+[33m497be37[m fix: Correct subtitle translation for anime page to improve clarity and consistency
+[33m37de5cd[m refactor: Update import paths to use absolute paths for better readability and maintainability across components
+[33ma65f8d0[m feat: Integrate FancyboxManager into Layout component for enhanced image viewing experience and remove unused Fancybox initialization code
+[33mb94dd95[m refactor: Simplify layout components by removing unused variables and functions, and integrate SakuraEffect for enhanced visual appeal
+[33mc2dad66[m fix: Correct typos and improve clarity in RSS page translations for better user understanding
+[33m58a93f8[m fix: Update site language to English and enhance RSS button functionality with improved text attributes for copy feedback
+[33m0dfab43[m feat: Add mobile responsiveness checks to Live2DWidget and SpineModel to prevent initialization on mobile devices
+[33ma4ccdb9[m style: Remove unnecessary border styling from PostCard and simplify PostPage layout classes
+[33m5c33cb3[m feat: Enhance wave animation performance settings with quality and hardware acceleration options
+[33md783ba5[m feat: Integrate MessageBox component into Live2DWidget and SpineModel for improved message display functionality
+[33m85935a8[m chore: Remove project and skill components, update navigation and configuration settings
+[33m3c11bda[m refactor: Remove deprecated components and reorganize file structure for better maintainability
+[33mdaa1d3c[m Merge pull request #38 from CuteLeaf/dev
+[33m00156b7[m style: 优化置顶样式
+[33m9adb3f6[m Update site configuration
+[33m92f7961[m feat: Update PostCard component with pinned icon and internationalization support
+[33m83882f8[m Merge pull request #36 from CuteLeaf/dev
+[33m65cf30b[m feat: Add pinned icon to PostCard component for highlighted posts
+[33mfd4be4a[m Merge pull request #35 from CuteLeaf/dev
+[33m9fdc4e3[m style: 优化首页文章列表样式
+[33ma69d486[m Merge pull request #34 from CuteLeaf/dev
+[33mfe49c98[m add: Firefly 字体配置指南
+[33me2ba7ec[m Merge pull request #33 from CuteLeaf/dev
+[33m066eb33[m Adjust layout styles for improved banner interaction and navbar appearance
+[33ma76f8e6[m Merge pull request #32 from CuteLeaf/dev
+[33m00f1c67[m Refactor Layout.astro
+[33md05db6f[m Refactor TOC initialization logic in Layout.astro
+[33m38cbd00[m Enhance message positioning for Live2D and Spine models
+[33m078be64[m Update anime.astro (#30)
+[33ma153031[m build(deps): bump svelte from 5.39.13 to 5.41.1 (#29)
+[33mee1241f[m build(deps): bump astro from 5.14.6 to 5.14.7 in the patch-updates group (#23)
+[33ma456e13[m fix: vercel build (#26)
+[33m3a79d80[m Remove umamiConfig.ts from README
+[33me7f456c[m Update README
+[33mef46fa0[m Merge pull request #24 from CuteLeaf/dev
+[33m9fd218d[m Merge branch 'dev' of https://github.com/CuteLeaf/Firefly into dev
+[33m9e938d0[m chore: update version to 2.6.5, remove umami integration and add twikko visit statistics
+[33m5b208c2[m Merge pull request #22 from CuteLeaf/dev
+[33mae6c094[m style: refine comment component styling for improved layout and responsiveness
+[33m3731308[m Add files via upload
+[33mc8d381f[m Merge pull request #21 from CuteLeaf/dev
+[33m82d8bb4[m fix: update comment component to use a custom Twikoo build and improve comment section styling
+[33m23f6f5c[m Merge pull request #20 from CuteLeaf/dev
+[33m51d13ab[m Enhance comment component to support multiple post types and add comment section to friends page
+[33m6776ced[m Merge pull request #19 from CuteLeaf/dev
+[33mc88e678[m Merge branch 'dev' of https://github.com/CuteLeaf/Firefly into dev
+[33ma8dfc7f[m Update blog links
+[33m4cc0e0b[m Update umamiConfig.ts
+[33ma550e94[m Merge pull request #18 from CuteLeaf/dev
+[33m0f6aeda[m Update README and configuration for Umami integration
+[33m27d03e1[m Merge pull request #17 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-31978c63f8
+[33mbc9caef[m build(deps): bump the patch-updates group with 2 updates
+[33m8be46df[m Merge pull request #16 from CuteLeaf/dev
+[33m4ba3e67[m Enhance FloatingTOC functionality and performance
+[33m64d7dce[m Increase background color opacity in FloatingTOC
+[33m9177c04[m Merge pull request #15 from CuteLeaf/dev
+[33mc4bcaba[m style: Update BackToTop and FloatingTOC components for improved responsiveness and dark mode support
+[33m93ae26b[m Update README.md
+[33mfd93557[m Update README
+[33m5addc73[m Update README.md
+[33m1054cb6[m Add files via upload
+[33ma1f7d42[m Merge pull request #13 from CuteLeaf/dev
+[33m627811b[m upload: demo images
+[33m2ee9a7d[m Merge pull request #12 from CuteLeaf/dev
+[33mf05324c[m style: Remove layout switch option from NavMenuPanel for cleaner UI
+[33m9ece95b[m Enhance README with images and table
+[33m70f2c52[m Merge pull request #11 from CuteLeaf/dev
+[33m336d85e[m feat: Implement layout switching for post list and enhance pagination with responsive design
+[33m4cdcaad[m Merge pull request #10 from CuteLeaf/dev
+[33m6458875[m Merge branch 'master' into dev
+[33m4c34eb0[m Merge pull request #6 from CuteLeaf/dependabot-npm_and_yarn-patch-updates-6dfcb9c81a
+[33me30d5bc[m fix: Update sakuraConfig to disable cherry blossom effect by default
+[33m1c58b19[m refactor: Revise configuration sections in about.md for clarity and modularity
+[33m7b80b35[m chore: Update version to 2.6.1 and enhance README with detailed configuration structure
+[33m34e11f3[m style: Add box-decoration-break property to enhance layout consistency
+[33m87b08dd[m feat: Refactor configuration structure and update imports for improved modularity
+[33m7e1082b[m feat: Integrate music player component and configuration into the application
+[33m734a8d8[m feat: Add Tailwind CSS line-clamp plugin and update friends page layout for improved responsiveness
+[33m904a326[m build(deps): bump the patch-updates group across 1 directory with 2 updates
+[33mca730b6[m Merge pull request #9 from CuteLeaf/dev
+[33ma5676cd[m Update README.md
+[33m30ac2a6[m Merge branch 'dev' of https://github.com/CuteLeaf/Firefly into dev
+[33m432aa11[m feat: Update friends configuration and add custom content page for friend links
+[33m14e6bc3[m Merge pull request #8 from CuteLeaf/dev
+[33mac20fc9[m feat: Add site description to configuration and update meta tags for improved SEO
+[33m7bc96d0[m Merge pull request #7 from CuteLeaf/dev
+[33m2e050fb[m feat: Implement dynamic page access control and navigation based on site configuration
+[33m495284a[m refactor: Enhance RSS feed generation with improved image handling and XML sanitization
+[33m5946825[m Merge pull request #5 from CuteLeaf/dev
+[33m5e36e36[m style: Change title element from div to h1
+[33m5536566[m Fix formatting in README.md
+[33ma35aaa5[m Merge pull request #4 from CuteLeaf/dev
+[33m0007092[m delete: Remove pnpm-lock.yaml file
+[33m02bdcde[m Update README.md
+[33m4ba28bc[m fix: Update FloatingTOC visibility logic and add pnpm-lock.yaml to .gitignore
+[33mcf63a11[m Update description of Firefly theme in README
+[33mfdc6219[m fix: Update firefly.png image file
+[33m05e46b9[m Update README.md
+[33mde99ba7[m Update README.md
+[33mff2bcf3[m delete: Remove unused image files and update post metadata
+[33m47f7bcd[m style: 优化 anime 页面样式和响应式设计 fix #3
+[33m56ef8b9[m Update README with new image and acknowledgments
+[33m79bc590[m fix: TOC无法跳转
+[33m299e76e[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m8d4c5cd[m style: 优化
+[33m74e2642[m 更新 README.md
+[33m6e7412b[m add: FloatingTOC
+[33mc12ffce[m Merge branch 'master' of https://github.com/CuteLeaf/Firefly
+[33m8c3d083[m style: 让返回顶部按钮响应式
+[33m07d6d17[m Update README.md
+[33mff97e2b[m fix: avatar path
+[33m9c0b906[m fix: demo url
+[33mcf34293[m fix: 删除多余文件
+[33m9f198ab[m Update README to reflect theme description change
+[33m9152776[m Update README.md
+[33mf456ab7[m first commit

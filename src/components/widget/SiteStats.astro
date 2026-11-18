@@ -1,0 +1,76 @@
+---
+import { Icon } from "astro-icon/components";
+import WidgetLayout from "@/components/common/WidgetLayout.astro";
+import type { WidgetComponentConfig } from "@/types/config";
+
+interface Props {
+	class?: string;
+	style?: string;
+	widgetConfig?: WidgetComponentConfig;
+}
+
+const { class: className, style, widgetConfig } = Astro.props;
+
+// 保持标题开关的控制
+const showTitle = widgetConfig?.showTitle !== false;
+
+// 企业实力数据配置 (你可以随时在这里修改数字)
+const companyStats = [
+	{ value: "20+", label: "Years Experience" },
+	{ value: "20,000+", label: "Factory Area (m²)" },
+	{ value: "90+", label: "Export Countries" },
+	{ value: "50+", label: "Containers / Month" },
+];
+---
+
+<WidgetLayout name="Work With Us" showTitle={showTitle} id="site-stats" class={className} style={style}>
+  <div class="flex flex-col gap-5 px-3 py-2">
+    
+    <!-- 1. 企业实力数据 (2x2 Grid 布局) -->
+    <div class="grid grid-cols-2 gap-3">
+      {companyStats.map((stat) => (
+        <div class="flex flex-col items-center justify-center p-2.5 bg-neutral-50 dark:bg-neutral-800/40 rounded-xl border border-(--line-divider)">
+          <span class="text-lg font-black text-(--primary) leading-none mb-1">
+            {stat.value}
+          </span>
+          <span class="text-[0.7rem] text-neutral-500 dark:text-neutral-400 text-center leading-tight">
+            {stat.label}
+          </span>
+        </div>
+      ))}
+    </div>
+
+    <!-- 2. 显眼的行动号召按钮 (CTA) - 已修改链接为 /guestbook/ -->
+    <a 
+      href="/guestbook/" 
+      class="w-full flex items-center justify-center gap-2 bg-(--primary) text-white font-bold py-3 px-4 rounded-xl hover:bg-(--primary-hover) transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+    >
+      <Icon is:inline name="material-symbols:mail-outline" class="text-xl" />
+      Get a Free Quote
+    </a>
+
+    <!-- 3. 权威认证展示区 -->
+    <div class="pt-4 border-t border-(--line-divider) flex flex-col gap-3">
+      <span class="text-xs text-center text-neutral-500 dark:text-neutral-400 font-medium uppercase tracking-wider">
+        Certified Quality
+      </span>
+      
+      <!-- 认证小图标 -->
+      <div class="grid grid-cols-2 gap-2">
+        <div class="flex items-center justify-center gap-1.5 py-1.5 px-2 bg-neutral-100 dark:bg-neutral-800/50 rounded-lg text-neutral-600 dark:text-neutral-300 text-xs font-bold border border-neutral-200 dark:border-neutral-700">
+          <Icon is:inline name="material-symbols:verified" class="text-green-600 text-sm" /> CE
+        </div>
+        <div class="flex items-center justify-center gap-1.5 py-1.5 px-2 bg-neutral-100 dark:bg-neutral-800/50 rounded-lg text-neutral-600 dark:text-neutral-300 text-xs font-bold border border-neutral-200 dark:border-neutral-700">
+          <Icon is:inline name="material-symbols:eco" class="text-green-600 text-sm" /> FSC
+        </div>
+        <div class="flex items-center justify-center gap-1.5 py-1.5 px-2 bg-neutral-100 dark:bg-neutral-800/50 rounded-lg text-neutral-600 dark:text-neutral-300 text-xs font-bold border border-neutral-200 dark:border-neutral-700">
+          <Icon is:inline name="material-symbols:workspace-premium" class="text-green-600 text-sm" /> ISO 9001
+        </div>
+        <div class="flex items-center justify-center gap-1.5 py-1.5 px-2 bg-neutral-100 dark:bg-neutral-800/50 rounded-lg text-neutral-600 dark:text-neutral-300 text-xs font-bold border border-neutral-200 dark:border-neutral-700">
+          <Icon is:inline name="material-symbols:air" class="text-green-600 text-sm" /> CARB
+        </div>
+      </div>
+    </div>
+
+  </div>
+</WidgetLayout>
