@@ -9,7 +9,7 @@ draft: false
 image: "../../assets/images/gallery/strand-woven-cali-vs-dasso-hero.jpg"
 ---
 
-When 33specifying high-density architectural materials, strand woven bamboo consistently outperforms traditional domestic hardwoods in raw physical metrics. The processing technology behind this material crushes natural bamboo culms into individual fibrous strands, saturates them with low-VOC adhesives, and binds them under immense hydraulic pressure. The resulting composite material boasts exceptional dimensional stability, sheer density, and extreme impact resistance. 
+When 335specifying high-density architectural materials, strand woven bamboo consistently outperforms traditional domestic hardwoods in raw physical metrics. The processing technology behind this material crushes natural bamboo culms into individual fibrous strands, saturates them with low-VOC adhesives, and binds them under immense hydraulic pressure. The resulting composite material boasts exceptional dimensional stability, sheer density, and extreme impact resistance. 
 
 Two prominent brands have established heavy footprints in this sector: Cali Floors and Dasso. While both leverage strand woven technology, they engineer their products for vastly different environments. Cali Floors dominates the residential and light commercial interior flooring market. Dasso engineers its products primarily for harsh exterior applications, including decking, siding, and soffits. Understanding the structural differences, manufacturing nuances, and material limitations of each brand is critical for procurement managers, builders, and homeowners looking to specify the correct flooring or decking material for their projects.
 
