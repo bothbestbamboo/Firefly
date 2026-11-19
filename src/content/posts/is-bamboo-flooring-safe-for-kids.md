@@ -13,8 +13,6 @@ High-quality bamboo flooring is completely safe for kids, provided you choose bo
 
 Parents spend hours researching non-toxic crib mattresses and BPA-free bottles, yet the largest surface in a child's bedroom often gets overlooked. Babies crawl with their hands and faces mere inches above the floorboards, and young children breathe more air per pound of body weight than adults. Understanding how bamboo planks are glued together, what regulatory labels actually guarantee, and how installation methods affect indoor air makes all the difference when choosing floors for a family home.
 
-![Sunlit modern family living room with natural matte bamboo flooring](../../assets/images/gallery/is-bamboo-flooring-safe-for-kids-hero.jpg)
-
 ## Decoding Formaldehyde in Bamboo Flooring
 
 Bamboo is not a hardwood tree; it is a fast-growing woody grass with a hollow stalk. To turn raw bamboo stalks into flat, structural floorboards, manufacturers slice the culms into thin strips or shred them into fibers, dry them, and bond them together under intense heat and hydraulic pressure. Because adhesives are essential to every bamboo plank on the market, the chemical makeup of that glue determines whether a floor is healthy for children.
